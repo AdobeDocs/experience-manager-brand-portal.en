@@ -15,6 +15,10 @@ exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 
 Adobe Experience Manager Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
 
+## What changed in 2022.08.0 {#what-changed-in-August-2022}
+
+Brand Portal 2022.08.0 is an internal release that includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
 ## What changed in 2022.05.0 {#what-changed-in-May-2022}
 
 Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. You can also monitor the status of the automatically executed delete jobs using the **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]** > **[!UICONTROL Deletion Reports]** option in Brand Portal. The report for a job provides the following details:

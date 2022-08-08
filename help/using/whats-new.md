@@ -17,7 +17,7 @@ Adobe Experience Manager Assets Brand Portal helps you easily acquire, control, 
 
 ## What changed in 2022.08.0 {#what-changed-in-August-2022}
 
-Brand Portal 2022.08.0 is an internal release that includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 2022.08.0 includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 ## What changed in 2022.05.0 {#what-changed-in-May-2022}
 

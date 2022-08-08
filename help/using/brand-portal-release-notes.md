@@ -30,8 +30,9 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
-This release include fixes to the following critical issues:
-* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
+This release includes fixes to the following critical issues:
+
+* When Asset Compute fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
 * When the preview action fails, there is no notification to communicate the failure.
 * Tenant Upload Quota property is getting inaccurately set for tenants.
 * When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.

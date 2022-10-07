@@ -13,19 +13,38 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 ---
 # Release Notes {#release-notes}
 
-Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.08.0 release.
+Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.10.0 release.
 
 ## Release Information {#release-information}
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2022.08.0|
-| Date | August 2022 |
+| Version | 2022.10.0|
+| Date | October 2022 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time to market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
+## What's New in 2022.10.0 {#whats-new-in-2022.10.0}
+
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issues:
+* Slow response times while copying large files from Brand Portal to a third-party tool.
+* When you select the renditions count checkbox, the checkboxes to select individual renditions are disabled.
+* Slow response time for search.
+
+>[!IMPORTANT]
+>
+>Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of Pulse notifications, you will continue receiving email notifications for the following events:
+>*   Sharing assets via link
+>*   Requesting access workflow
+>*   Sharing of contribution folder
+>*   Initiating export to AEM
+>*   Completed exporting to AEM
+
+<!--
 ## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
 
 ### Critical Issues Fixed {#critical-issues-fixed}
@@ -37,7 +56,7 @@ This release includes fixes to the following critical issues:
 * Tenant Upload Quota property is getting inaccurately set for tenants.
 * When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
 * The translation of some strings gets truncated on the Brand Portal user interface.
-
+-->
 <!--
 ### New Features {#new-features}
 
@@ -154,13 +173,13 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
-
+<!--
 ### Known Issues {#known-issues}
 
 This release includes the following known issue:
 
 * Partial localization in Asset sourcing report content
-
+-->
 
 <!--
 ### Known Issues {#known-issues}

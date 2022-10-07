@@ -173,13 +173,13 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
-
+<!--
 ### Known Issues {#known-issues}
 
 This release includes the following known issue:
 
 * Partial localization in Asset sourcing report content
-
+-->
 
 <!--
 ### Known Issues {#known-issues}

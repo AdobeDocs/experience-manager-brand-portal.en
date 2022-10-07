@@ -32,7 +32,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes fixes to the following critical issues:
 *  Azcopy is used to increase the execution speed while processing large amount of datasets.
-* Individual renditions can be selected when renditions checkbox is unchecked. This allows to know the number of renditions selected.
+* Individual renditions can be selected when renditions checkbox is unchecked.
 * The time in searching queries is optimized.
 
 >[!IMPORTANT]
@@ -44,6 +44,7 @@ This release includes fixes to the following critical issues:
 >*   Initiating export to AEM
 >*   Completed exporting to AEM
 
+<!--
 ## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
 
 ### Critical Issues Fixed {#critical-issues-fixed}
@@ -55,7 +56,7 @@ This release includes fixes to the following critical issues:
 * Tenant Upload Quota property is getting inaccurately set for tenants.
 * When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
 * The translation of some strings gets truncated on the Brand Portal user interface.
-
+-->
 <!--
 ### New Features {#new-features}
 

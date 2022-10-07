@@ -19,12 +19,30 @@ Get an insight into the new features, enhancements, critical issues fixed, and k
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2022.08.0|
-| Date | August 2022 |
+| Version | 2022.10.0|
+| Date | October 2022 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time to market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
+
+## What's New in 2022.10.0 {#whats-new-in-2022.10.0}
+
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issues:
+
+*  Azcopy is used to increase the execution speed while processing large amount of datasets.
+* Individual renditions can be selected when renditions checkbox is unchecked. This allows to know the number of renditions selected.
+* The time in searching queries is optimized.
+
+> [!Important]
+Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of pulse notification, you will continue receiving email notifications for the following events:
+*   Sharing assets via link
+*   Requesting access workflow
+*   Sharing of contribution folder
+*   Initiating export to AEM
+*   Completed exporting to AEM
 
 ## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
 

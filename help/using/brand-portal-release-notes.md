@@ -31,18 +31,19 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 ### Critical Issues Fixed {#critical-issues-fixed}
 
 This release includes fixes to the following critical issues:
-* Slow response times while copying large files from Brand Portal to a third-party tool.
+
+* Slow response time while copying large files from Brand Portal to a third-party tool.
 * When you select the renditions count checkbox, the checkboxes to select individual renditions are disabled.
 * Slow response time for search.
 
 >[!IMPORTANT]
 >
->Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of Pulse notifications, you will continue receiving email notifications for the following events:
->*   Sharing assets via link
->*   Requesting access workflow
->*   Sharing of contribution folder
->*   Initiating export to AEM
->*   Completed exporting to AEM
+>Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. You will continue receiving email notifications for the following events:
+>*   When Brand Portal assets are shared with you via share link
+>*   When the administrator approves your Brand Portal access request. The administrator also receives a notification when you request for Brand Portal access.
+>*   When contribution folder is shared with you
+>*   When you start to publish assets from Brand Portal to AEM
+>*   When the assets are published successfully from Brand Portal to AEM
 
 <!--
 ## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
@@ -145,7 +146,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >

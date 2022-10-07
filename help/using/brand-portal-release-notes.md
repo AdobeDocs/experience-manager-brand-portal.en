@@ -36,12 +36,13 @@ This release includes fixes to the following critical issues:
 * The time in searching queries is optimized.
 
 >[!Important]
-> Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of pulse notification, you will continue receiving email notifications for the following events:
-> *   Sharing assets via link
-> *   Requesting access workflow
-> *   Sharing of contribution folder
-> *   Initiating export to AEM
-> *   Completed exporting to AEM
+>
+>Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of pulse notification, you will continue receiving email notifications for the following events:
+>*   Sharing assets via link
+>*   Requesting access workflow
+>*   Sharing of contribution folder
+>*   Initiating export to AEM
+>*   Completed exporting to AEM
 >
 
 ## What's New in 2022.08.0 {#whats-new-in-2022.08.0}

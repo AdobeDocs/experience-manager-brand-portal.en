@@ -35,7 +35,7 @@ This release includes fixes to the following critical issues:
 * Individual renditions can be selected when renditions checkbox is unchecked. This allows to know the number of renditions selected.
 * The time in searching queries is optimized.
 
-> [!Important]
+>[!Important]
 > Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of pulse notification, you will continue receiving email notifications for the following events:
 > *   Sharing assets via link
 > *   Requesting access workflow

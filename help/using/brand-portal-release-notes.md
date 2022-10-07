@@ -33,7 +33,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 This release includes fixes to the following critical issues:
 * Slow response times while copying large files from Brand Portal to a third-party tool.
 * When you select the renditions count checkbox, the checkboxes to select individual renditions are disabled.
-* Search for collections is slow and does not display appropriate results.
+* Slow response time for search.
 
 >[!IMPORTANT]
 >

@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 ---
 # Release Notes {#release-notes}
 
-Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.08.0 release.
+Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.10.0 release.
 
 ## Release Information {#release-information}
 
@@ -31,7 +31,6 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 ### Critical Issues Fixed {#critical-issues-fixed}
 
 This release includes fixes to the following critical issues:
-
 *  Azcopy is used to increase the execution speed while processing large amount of datasets.
 * Individual renditions can be selected when renditions checkbox is unchecked. This allows to know the number of renditions selected.
 * The time in searching queries is optimized.
@@ -43,6 +42,7 @@ This release includes fixes to the following critical issues:
 > *   Sharing of contribution folder
 > *   Initiating export to AEM
 > *   Completed exporting to AEM
+>
 
 ## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
 

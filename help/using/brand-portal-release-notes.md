@@ -31,13 +31,13 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 ### Critical Issues Fixed {#critical-issues-fixed}
 
 This release includes fixes to the following critical issues:
-*  Azcopy is used to increase the execution speed while processing large amount of datasets.
-* Individual renditions can be selected when renditions checkbox is unchecked.
-* The time in searching queries is optimized.
+* Slow response times while copying large files from Brand Portal to a third-party tool.
+* When you select the renditions count checkbox, the checkboxes to select individual renditions are disabled.
+* Search for collections is slow and does not display appropriate results.
 
 >[!IMPORTANT]
 >
->Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of pulse notification, you will continue receiving email notifications for the following events:
+>Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of Pulse notifications, you will continue receiving email notifications for the following events:
 >*   Sharing assets via link
 >*   Requesting access workflow
 >*   Sharing of contribution folder

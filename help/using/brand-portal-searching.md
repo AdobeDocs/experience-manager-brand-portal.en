@@ -49,7 +49,7 @@ To know about search behaviour with smart tagged assets, see [understand search 
 
 Search facets in the Filters panel add granularity to your search experience and make the search functionality efficient. Search facets use multiple dimensions (predicates) that enable you to perform intricate searches. You can easily drill down to the desired level of detail for a more focused search.
 
-For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. You can reduce the scope of search further by specifying the MIME type for the image in the File Type search facet. Similarly, when searching for documents, you can specify the format, for example, PDF or MS Word format.
+For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. You can reduce the scope of search further by specifying the MIME type for the image in the File Type search facet. Similarly, when searching for documents, you can specify the format, for example, PDF or MS® Word format.
 
 ![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
 
@@ -71,7 +71,7 @@ To apply filters to your search, using the available [search facets](../using/br
    >To non-admin users, [!UICONTROL Path Browser] in [!UICONTROL Filter] panel shows only the content structure of the folders (and their ancestor folders) shared with them.  
    >To admin users, Path Browser allows navigating to any folder in Brand Portal.
 
-    * **[!UICONTROL File Type]** to specify the type (image, document, multimedia, archive) of asset file you are looking for. Further, you can narrow down the scope of your search, for example, specify the MIME type (Tiff, Bitmap, GIMP Images) for image or format (PDF or MS Word) for the documents.
+    * **[!UICONTROL File Type]** to specify the type (image, document, multimedia, archive) of asset file you are looking for. Further, you can narrow down the scope of your search, for example, specify the MIME type (Tiff, Bitmap, GIMP Images) for image or format (PDF or MS® Word) for the documents.
     * **[!UICONTROL File Size]** to search for assets based on their size. You can specify the lower and upper limits for the size range to narrow down your search and specify the unit of measure to search.
     * **[!UICONTROL Status]** to search for assets based on asset statuses, such as Approval (Approved, Changes Requested, Rejected, Pending) and Expiration.
     * **[!UICONTROL Average Rating]** to search for assets based on the rating of the assets.
@@ -86,8 +86,16 @@ To apply filters to your search, using the available [search facets](../using/br
       The [!UICONTROL Property Predicate] supports text searches for:  
 
       **Partial phrases**
-      To allow the asset search using partial phrases in property predicate, enable the **[!UICONTROL Partial Search]** checkbox in Search Form.  
-      This allows you to search for the desired assets even if you do not specify the exact words/ phrases used in the asset metadata.  
+      To allow the asset search using partial phrases in property predicate, enable the **[!UICONTROL Partial Search]** checkbox in Search Form. This allows you to search for the desired assets even if you do not specify the exact words/ phrases used in the asset metadata.
+
+      >[!NOTE]
+      >
+      > Brand Portal supports the following fields concerning Partial Search:
+      >* jcr:content/metadata/dc:title
+      >* jcr:content/jcr:title
+      >* jcr:content/metadata/dam:search_promote
+      >* jcr:content/metadata/dc:format
+
       You can:
         * Specify a word occurring in your searched phrase in the facet in Filters panel. For example, if you search for the term **climb** (and Property Predicate is mapped to [!UICONTROL `dc:title`] property), then all the assets with the word **climb** in their title phrase are returned.
         * Specify a part of the word, occurring in your searched phrase, along with wildcard character (&#42;) to fill the gaps.

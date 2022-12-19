@@ -90,7 +90,7 @@ To apply filters to your search, using the available [search facets](../using/br
 
       >[!NOTE]
       >
-      > Brand Portal supports the following fields concerning Partial Search:
+      > Brand Portal supports the following fields for Partial Search:
       >* jcr:content/metadata/dc:title
       >* jcr:content/jcr:title
       >* jcr:content/metadata/dam:search_promote

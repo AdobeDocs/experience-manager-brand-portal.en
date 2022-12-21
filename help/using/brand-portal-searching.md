@@ -35,7 +35,8 @@ To search for assets on Brand Portal:
 
    >[!NOTE]
    >
-   >At least 3 characters are required in omnisearch for search suggestions to appear.
+   >* At least 3 characters are required in omnisearch for search suggestions to appear.
+   >* Also, if more than one keyword is used, OR is the default operator between the keywords.
 
 1. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
 

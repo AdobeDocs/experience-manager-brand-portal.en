@@ -36,7 +36,7 @@ To search for assets on Brand Portal:
    >[!NOTE]
    >
    >* At least 3 characters are required in omnisearch for search suggestions to appear.
-   >* Also, if more than one keyword is used, OR is the default operator between the keywords. For example, if an OR operator is used between `biking` and `forest` then the search results will be related to all the assets having both terms in their name.
+   >* When you search the terms `mountain` or `biking` then omnisearch provides the search results with the text `mountain` AND `biking` in their title, but also `mountain` OR `biking` in their respective metadata fields.
 
 1. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
 

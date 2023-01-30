@@ -36,7 +36,7 @@ To search for assets on Brand Portal:
    >[!NOTE]
    >
    >* At least 3 characters are required in omnisearch for search suggestions to appear.
-   >* When you search the terms `mountain` or `biking` then omnisearch provides the search results with the text `mountain` AND `biking` in their title, but also `mountain` OR `biking` in their respective metadata fields.
+   >* When you search the terms `mountain` or `biking` then omnisearch provides the search results with the text `mountain` AND `biking` in their title, but also `mountain` OR `biking` in their respective smart tags. 
 
 1. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
 

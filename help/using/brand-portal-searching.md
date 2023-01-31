@@ -36,7 +36,7 @@ To search for assets on Brand Portal:
    >[!NOTE]
    >
    >* At least 3 characters are required in omnisearch for search suggestions to appear.
-   >* When you search the terms `mountain` or `biking` then omnisearch provides the search results with the text `mountain` AND `biking` in their metadata fields. Otherwise, the behavior is OR in case of Smart Tags which means the results with `mountain` OR `biking` in their respective smart tags are retrieved. 
+   >* When you search for `mountain biking`, omnisearch returns all assets in the search results that have both `mountain` and `biking` available in the metadata fields. For example, `mountain` in the `Title` field and `biking` in the `Description` field. Both the terms must be available in the metadata fields to display in the search results. However, omnisearch returns the asset in the search results even if only one of the two terms is available in Smart Tags metadata field. For example, if an asset contains `mountain` as one of the Smart Tags and does not contain `biking` in any other metadata field and you search for `mountain biking`, omnisearch still returns the asset in the search results. 
 
 1. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
 

@@ -1,12 +1,12 @@
 ---
 title: What's new in Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: What are the new features and enhancements for 2022.10.0
-seo-description: What are the new features and enhancements for 2022.10.0
+description: What are the new features and enhancements for 2032.02.0
+seo-description: What are the new features and enhancements for 2023.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
@@ -15,13 +15,17 @@ exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 
 Adobe Experience Manager Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
 
+## What changed in 2023.02.0 {#what-changed-in-February-2023}
+
+Brand Portal 2023.02.0 is an internal release that includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
 ## What changed in 2022.10.0 {#what-changed-in-October-2022}
 
-Brand Portal 2022.10.0 includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 2022.10.0 is an internal release that includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 ## What changed in 2022.08.0 {#what-changed-in-August-2022}
 
-Brand Portal 2022.08.0 includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+Brand Portal 2022.08.0 is an internal release that includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 ## What changed in 2022.05.0 {#what-changed-in-May-2022}
 

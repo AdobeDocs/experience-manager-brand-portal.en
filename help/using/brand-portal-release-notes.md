@@ -50,7 +50,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 **Enhancements**
 This release includes the following enhancements:
 *   A new modern PDF viewer is now available for an improved preview of the PDF assets.
-*   You can now choose to enable or disable asset sourcing notifications. Navigate to [!UICONTROL General Settings] and then enable or disable [!UICONTROL `Notify Administrator of asset contribution`].
+*   You can now choose to enable or disable asset sourcing notifications. Navigate to [!UICONTROL General Settings] and then enable or disable [!UICONTROL `Notify Administrator of Asset Contribution`].
 *   An unauthorized user cannot request access to the Brand Portal. The access request needs to go through Administrator only.
 *   The organizations that are provisioned for Brand Portal are visible on the profile picker list.
 

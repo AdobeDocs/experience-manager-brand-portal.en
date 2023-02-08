@@ -32,14 +32,10 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 **Bug Fixes**
 *   This release includes fixes to the following critical issues:
-    *   When you login to the Brand Portal, the profile picture is not displayed.
-    *   If the file name is longer than the default width of the content tree, the vertical length does not resize automatically. As a result, the file names are not readable.
-    *   While entering a custom predicate to the search facets, partial search results display.
-    *   The text on the login page is not localized for Korean and Japanese languages.
-    *   If you do not have access to the Brand Portal tenant, there is no provision to request access for the same.
-    *   When you select a file from the [!UICONTROL Collections] menu and click [!UICONTROL Settings], the [!UICONTROL Save] button is not enabled.
-    *   The text available on the user interface remains unlocalized after selecting a different locale.
-    *   When you filter the assets that you want to select, the `selected` label as well as the number of selected assets is unavailable.
+    *  Profile picture cannot be updated on the Brand Portal.
+    *  The content tree pane is not resizable. If the file name is longer than the default width of the content tree, you cannot drag the content tree both horizontally and vertically. As a result, longer file names are not readable.
+    *  Different search results are displayed if we search same predicate twice. Thus, the search results were inconsistent.
+    *  The text on the intermediate login pages are not localized for Korean and Japanese languages.
 
 *   The fixes to the issues with the Korean locale:
     *   While displaying the title of an image of a published asset, the label [!UICONTROL `image`] is not localized.
@@ -50,9 +46,12 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 **Enhancements**
 This release includes the following enhancements:
 *   A new modern PDF viewer is now available for an improved preview of the PDF assets.
-*   You can now choose to enable or disable asset sourcing notifications. Navigate to [!UICONTROL General Settings] and then enable or disable [!UICONTROL `Notify Administrator of Asset Contribution`].
-*   An unauthorized user cannot request access to the Brand Portal. The access request needs to go through Administrator only.
-*   The organizations that are provisioned for Brand Portal are visible on the profile picker list.
+*   You can now choose to enable or disable asset sourcing notifications for Administrators. Navigate to [!UICONTROL General Settings] and then enable or disable [!UICONTROL `Notify Administrator of asset contribution`].
+
+    ![Notify Administrator for asset contribution](assets/notify-admin.png)
+
+*   An unauthorized user cannot request access to the Brand Portal if the request access is disabled.
+*   The organizations only that are provisioned for Brand Portal are visible on the profile picker list.
 
 <!--
 This release include fixes to the following critical issues:
@@ -150,7 +149,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >

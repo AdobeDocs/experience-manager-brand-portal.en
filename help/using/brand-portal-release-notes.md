@@ -36,13 +36,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
     *  The content tree pane is not resizable. If the file name is longer than the default width of the content tree, you cannot drag the content tree both horizontally and vertically. As a result, longer file names are not readable.
     *  Different search results are displayed if we search same predicate twice. Thus, the search results were inconsistent.
     *  The text on the intermediate login pages are not localized for Korean and Japanese languages.
-
-*   The fixes to the issues with the Korean locale:
-    *   While displaying the title of an image of a published asset, the label [!UICONTROL `image`] is not localized.
-    *   The text on the login page is not localized.
-    *   While renaming a published file in [!UICONTROL Collections], if the file name is replaced by localized text, then the file name is replaced with an `underscore (_) `.
-    *   While sharing an asset through [!UICONTROL Link Share], the date is not localized.
-
+    
 **Enhancements**
 This release includes the following enhancements:
 *   A new modern PDF viewer is now available for an improved preview of the PDF assets.

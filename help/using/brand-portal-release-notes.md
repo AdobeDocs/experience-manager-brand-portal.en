@@ -37,7 +37,6 @@ This release includes fixes to the following critical issues:
 *  The content tree pane is not resizable. If the file name is longer than the default width of the content tree, you cannot drag the content tree both horizontally and vertically. As a result, longer file names are not readable.
 *  The search results are inconsistent for the same property predicate used twice in the search forms.
 *  The text on the intermediate login pages are not localized for all languages.
-*  Few fields of the user profile are not editable on `Edit` Profile page.
     
 ### Enhancements {#enhancements}
 
@@ -54,7 +53,8 @@ This release includes the following enhancements:
 
 This release includes the following known issue:
 
-* Partial localization in Asset sourcing report content
+* Partial localization in Asset sourcing report content.
+* Few fields of the user profile are not editable on user profile.
 
 <!--
 This release include fixes to the following critical issues:

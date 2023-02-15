@@ -33,9 +33,11 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 #### Bug Fixes {#bug-fixes}
 
 This release includes fixes to the following critical issues:
+*  Profile picture cannot be updated on the Brand Portal.
 *  The content tree pane is not resizable. If the file name is longer than the default width of the content tree, you cannot drag the content tree both horizontally and vertically. As a result, longer file names are not readable.
-*   The search results are inconsistent for the same property predicate used twice in the search forms.
+*  The search results are inconsistent for the same property predicate used twice in the search forms.
 *  The text on the intermediate login pages are not localized for all languages.
+*  Few fields of the user profile are not editable on `Edit` Profile page.
     
 ### Enhancements {#enhancements}
 

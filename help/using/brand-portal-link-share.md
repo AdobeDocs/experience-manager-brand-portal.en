@@ -97,7 +97,7 @@ To download the shared assets:
 
 >[!NOTE]
 >
->Brand Portal restricts download of assets larger than **1**GB per file size using link share.
+>Brand Portal restricts download of folders or assets, that have size larger than 5 GB, using link share.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.

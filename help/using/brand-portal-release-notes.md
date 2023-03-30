@@ -56,14 +56,71 @@ This release includes the following known issue:
 * Partial localization in Asset sourcing report content.
 * Few fields of the user profile are not editable on user profile.
 
-<!--
+## Previous releases
+
+### October 2022 release {#oct-2022}
+
+**Critical Issues Fixed**
+
+This release include fixes to the following critical issues:
+*   Slow response times while copying large files from Brand Portal to a third-party tool.
+*   When you select the renditions count checkbox, the checkboxes to select individual renditions are disabled.
+*   Slow response time for search.
+
+>[!IMPORTANT]
+>
+>Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of Pulse notifications, you will continue receiving email notifications for the following events: 
+>*  Sharing assets via link
+>*  Requesting access workflow
+>*  Sharing of contribution folder
+>*  Initiating export to AEM
+>*  Completed exporting to AEM
+>
+
+### August 2022 release {#aug-2022}
+
+**Critical Issues Fixed**
+
 This release include fixes to the following critical issues:
 * When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
 * When the preview action fails, there is no notification to communicate the failure.
 * Inaccurate value for the totalUploadedSize property for each asset is fixed.
 * When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
 * The translation of some strings gets truncated on the Brand Portal user interface.
--->
+
+### May 2022 release {#may-2022}
+
+**New features**
+
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit.
+
+**Critical Issues Fixed**
+
+This release includes fixes to the following critical issues:
+
+* When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
+* When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
+* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
+* Issues while downloading video assets from certain folders available on Brand Portal.
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* Sourcing published report displays an incorrect job start time.
+
+### February 2022 release {#feb-2022}
+
+**New features**
+
+* The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
+* The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
+* The users are unable to search, navigate, or open folders. The user interface reflects the error message: `Failed to load data`. 
+* The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal.
+* The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+* The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions. 
+* A non-admin user is getting only the original asset rendition when downloading an asset. The system and custom renditions are not downloaded.  
+* When applying search filter to download an asset, the `Download` button is disabled in the download dialog and does not allows the user to download the asset.
+* If `Smart Tags` and (or) `Color Tags` are enabled, the download dialog lists the `json` files as renditions and downloads these `json` files in the archived zip folder.
+* The anonymous users are unable to download assets using a shared link because the link redirects to the Brand Portal login page. 
+* The system is not reflecting the correct value for the number of active concurrent users.
+
 <!--
 ### New Features {#new-features}
 

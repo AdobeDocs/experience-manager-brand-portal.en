@@ -19,14 +19,33 @@ Get an insight into the new features, enhancements, critical issues fixed, and k
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.02.0|
-| Date | February 2023 |
+| Version | 2023.05.0|
+| Date | May 2023 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time to market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-## What's New in 2023.02.0 {#whats-new-in-2023.02.0}
+## What's New in 2023.05.0 {#whats-new-in-2023.05.0}
+
+### Critical Issues Fixed {#critical-issues-fixed}
+
+#### Bug Fixes {#bug-fixes}
+
+This release includes fixes to the following critical issues:
+*  If an error occurs while downloading an Asset from a shared link, the `Notice` and `Close` labels of the error prompt are not localized.
+*  Brand Portal displays **Request Header fields Too Large** error while accessing search filters using `Filter` pane.
+
+### Known Issues {#known-issues}
+
+This release includes the following known issue:
+
+* Partial localization in Asset sourcing report content.
+* Few fields of the user profile are not editable on user profile.
+
+## Previous releases
+
+### February 2023 release {#feb-2023}
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
@@ -55,8 +74,6 @@ This release includes the following known issue:
 
 * Partial localization in Asset sourcing report content.
 * Few fields of the user profile are not editable on user profile.
-
-## Previous releases
 
 ### October 2022 release {#oct-2022}
 

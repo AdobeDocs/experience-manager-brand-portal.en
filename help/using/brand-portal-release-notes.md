@@ -47,8 +47,6 @@ This release includes the following known issue:
 
 ### February 2023 release {#feb-2023}
 
-### Critical Issues Fixed {#critical-issues-fixed}
-
 #### Bug Fixes {#bug-fixes}
 
 This release includes fixes to the following critical issues:

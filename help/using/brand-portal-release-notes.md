@@ -47,7 +47,7 @@ This release includes the following known issue:
 
 ### February 2023 release {#feb-2023}
 
-#### Bug Fixes {#bug-fixes}
+**Bug Fixes**
 
 This release includes fixes to the following critical issues:
 *  Profile picture cannot be updated on the Brand Portal.
@@ -55,7 +55,7 @@ This release includes fixes to the following critical issues:
 *  The search results are inconsistent for the same property predicate used twice in the search forms.
 *  The text on the intermediate login pages are not localized for all languages.
     
-### Enhancements {#enhancements}
+**Enhancements**
 
 This release includes the following enhancements:
 *   A new modern PDF viewer is now available for an improved preview of the PDF assets.
@@ -66,7 +66,7 @@ This release includes the following enhancements:
 *   An unauthorized user cannot request access to the Brand Portal if the request access is disabled.
 *   The organizations only that are provisioned for Brand Portal are visible on the profile picker list.
 
-### Known Issues {#known-issues}
+**Known Issues**
 
 This release includes the following known issue:
 

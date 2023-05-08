@@ -13,7 +13,9 @@ exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 ---
 # Speed up the Brand Portal downloads {#guide-to-accelerate-downloads-from-brand-portal}
 
-Adobe Experience Manager Assets Brand Portal allows enhancing the download performance of large asset files by integrating with IBM Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed of the asset files. This integration ensures enhanced download experience.
+<!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
+
+Adobe Experience Manager Assets Brand Portal allows enhancing the download performance of large asset files by integrating with IBM&reg; Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed of the asset files. This integration ensures enhanced download experience.
 
 >[!NOTE]
 >
@@ -28,13 +30,13 @@ The **[!UICONTROL Fast Download]** configuration is by default enabled, which si
 To download the files faster, ensure the following:
 
 * Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]** and verify that the **[!UICONTROL Fast Download]** configuration is enabled in **[!UICONTROL Download Settings]**.
-* Ensure that port 33001 (both TCP and UDP) is open on the firewall. For more information on the prerequisites, see [IBM Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
-* **Install IBM Aspera Connect 3.9.9** in your browser's extension using administrator privileges (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
-* For platform support of Aspera transfer client, see [IBM Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
+* Ensure that port 33001 (both TCP and UDP) is open on the firewall. For more information on the prerequisites, see [IBM&reg; Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+* **Install IBM&reg; Aspera Connect 3.9.9** in your browser's extension using administrator privileges (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+* For platform support of Aspera transfer client, see [IBM&reg; Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
 
 >[!NOTE]
 >
->There is a known issue with IBM Aspera Connect. Fast download does not work with IBM Aspera Connect version 3.10 and above.
+>There is a known issue with IBM&reg; Aspera Connect. Fast download does not work with IBM&reg; Aspera Connect version 3.10 and above.
 
 ## Download domains {#download-domains}
 
@@ -49,11 +51,11 @@ Following are the download domains for different geographies:
 
 ## Sample download performance using file accelerator {#expected-download-performance-using-file-accelerator}
 
-The following table shows download performance for 2 GB file using Aspera Connect file download accelerator:
+The following table shows download performance for a file that is 2 GB using Aspera Connect file download accelerator:
 
 *The observed results do vary due to factors such as network bandwidth, server latency, and client location, considering Brand Portal server is at Oregon (United States).*
 
-| Client location           | Latency between client and server (milliseconds) | Speed with Aspera Connect File Transfer Accelerator (MBps) | Time taken to download 2 GB file with  Aspera File Transfer Accelerator (seconds) |
+| Client location           | Latency between client and server (milliseconds) | Speed with Aspera Connect File Transfer Accelerator (MBps) | Time taken to download a file that is 2 GB with Aspera File Transfer Accelerator (seconds) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | U.S. West (N. California) | 18                   | 36                                      | 57                                                              |
 | U.S. West (Oregon)        | 42                    | 36                                     | 57                                                               |
@@ -72,7 +74,7 @@ To download assets faster from Brand Portal:
 
    Do one of the following:
 
-   * Select the assets or folders you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
+   * Select the assets or folders that you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
 
      ![select-multiple-assets](assets/select-assets-new.png)
 
@@ -88,31 +90,31 @@ To download assets faster from Brand Portal:
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to download assets using IBM Aspera Connect. 
+1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to download assets using IBM&reg; Aspera Connect. 
 
-   If you are downloading the assets for the first time and do not have IBM Aspera Connect installed in your browser or the existing version is out-of-date,  it prompts you to install the Aspera download accelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+   If you are downloading the assets for the first time and do not have IBM&reg; Aspera Connect installed in your browser or the existing version is out-of-date, you are prompted to install the Aspera download accelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
    ![](assets/aspera-not-launched.png)
 
 1. **Install Aspera Connect Client**
 
-   To install IBM Aspera Connect client setup, run the setup from  .msi  file of IBM Aspera Connect client application and follow the installation wizard.
+   To install IBM&reg; Aspera Connect client setup, run the setup from  .msi  file of IBM&reg; Aspera Connect client application and follow the installation wizard.
 
    ![](assets/aspera-download-1.png)
 
 1. Once the client is successfully installed, refresh the browser page and initiate the download steps again.
 
-1. To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM Aspera Connect. 
+1. To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. All the selected renditions are downloaded in a zip folder using IBM&reg; Aspera Connect. 
 
    On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system.
 
    ![](assets/aspera-download-2.png)
 
-   If you do not want to use IBM Aspera Connect, click **[!UICONTROL Deny]**. If **[!UICONTROL Fast Download]** is denied or fails, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. 
+   If you do not want to use IBM&reg; Aspera Connect, click **[!UICONTROL Deny]**. If **[!UICONTROL Fast Download]** is denied or fails, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. 
 
 >[!NOTE]
 >
->If the **[!UICONTROL Fast Download]** setting is turned-off by the administrator, the selected renditions are directly downloaded in a zip folder without using IBM Aspera Connect. 
+>If the **[!UICONTROL Fast Download]** setting is turned-off by the administrator, the selected renditions are directly downloaded in a zip folder without using IBM&reg; Aspera Connect. 
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
@@ -171,13 +173,13 @@ On successful completion of the download, a dialog box shows the location where 
    >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab **[!UICONTROL Transfers]** within **[!UICONTROL Preferences]**. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
 -->
 
-## Using file accelerator on Microsoft Edge browser {#using-file-accelerator-on-microsoft-edge-browser}
+## Using file accelerator on Microsoft&reg; Edge browser {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft Edge runs in Enhanced Protected Mode (EPM) preventing communication with the Aspera Connect server, while on same private network or with a Trusted Site. Therefore, a pop- up shows up every time a connection with the server is being established.
+Microsoft&reg; Edge runs in Enhanced Protected Mode (EPM) preventing communication with the Aspera Connect server, while on same private network or with a Trusted Site. Therefore, a pop- up shows up every time a connection with the server is being established.
 
 ![](assets/switchapps-msedge.png)
 
-To use accelerated download functionality on Microsoft Edge, remove the Brand Portal site from the trusted site list.
+To use accelerated download functionality on Microsoft&reg; Edge, remove the Brand Portal site from the trusted site list.
 
 1. Open the Control Panel (**[!UICONTROL Window key + X]**, then select **[!UICONTROL Control Panel]**).
 1. Go to **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Click the **[!UICONTROL Security]** tab.
@@ -186,7 +188,7 @@ To use accelerated download functionality on Microsoft Edge, remove the Brand Po
 
 ## Aspera Connect client Preferences {#aspera-connect-client-preferences}
 
-There are a few useful preferences which can be set in IBM Aspera Connect Client preference by right clicking the icon and selecting **[!UICONTROL Preferences]**.
+There are a few useful preferences which can be set in IBM&reg; Aspera Connect Client preference by right-clicking the icon and selecting **[!UICONTROL Preferences]**.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -200,9 +202,9 @@ Also, the Aspera Connect client can be marked to automatically start on system s
 
 ## Troubleshoot issues with download acceleration {#troubleshoot-issues-with-download-acceleration}
 
-If download acceleration is not working for you, follow these steps to troubleshoot:
+If download acceleration is not working for you, try the following suggestions:
 
-1. Check that ports are not blocked, by visiting [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your machine.
+1. Check that ports are not blocked. Use Google Search to find options that let you check if ports are blocked, based on the operating system that is used.  <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
 
    If ports are not OK, then reach out to your network team and ensure that Ports 33001 (both TCP & UDP) are not blocked in the firewall.
 

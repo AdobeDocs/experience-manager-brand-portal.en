@@ -1,8 +1,8 @@
 ---
 title: Release Notes
 seo-title: Release Notes
-description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
+description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -13,62 +13,73 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 ---
 # Release Notes {#release-notes}
 
-Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
+Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 
 ## Release Information {#release-information}
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.05.0|
-| Date | May 2023 |
+| Version | 2023.08.0|
+| Date | August 2023 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time to market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-## What's New in 2023.05.0 {#whats-new-in-2023.05.0}
+## What's New in 2023.08.0 {#whats-new-in-2023.08.0}
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
 #### Bug Fixes {#bug-fixes}
 
 This release includes fixes to the following critical issues:
-*  If an error occurs while downloading an Asset from a shared link, the `Notice` and `Close` labels of the error prompt are not localized.
-*  Brand Portal displays **Request Header fields Too Large** error while accessing search filters using `Filter` pane.
 
-### Known Issues {#known-issues}
+* For some Brand Portal users, the [!UICONTROL Download] pop up takes time in loading the assets if they are large in size.
+* In Tag Picker, the **[!UICONTROL General Tags]** with long labels gets truncated.
+* When you are trying to download renditions, the rendition names are getting trimmed. This affects in understanding which rendition you are downloading.
+* While previewing the video-type asset in card view, the asset does not load.
+* If you are trying to download a single asset or a single rendition, the output is of zip type.
 
-This release includes the following known issue:
+## Previous releases
+
+### May 2023 release {#may-2023}
+
+**Bug Fixes**
+This release includes fixes to the following critical issues:
+
+* If an error occurs while downloading an Asset from a shared link, the `Notice` and `Close` labels of the error prompt are not localized.
+* Brand Portal displays **Request Header fields Too Large** error while accessing search filters using `Filter` pane.
+
+**Known issues**
+This release includes the following known issues:
 
 * Partial localization in Asset sourcing report content.
 * Few fields of the user profile are not editable on user profile.
-
-## Previous releases
 
 ### February 2023 release {#feb-2023}
 
 **Bug Fixes**
 
 This release includes fixes to the following critical issues:
-*  Profile picture cannot be updated on the Brand Portal.
-*  The content tree pane is not resizable. If the file name is longer than the default width of the content tree, you cannot drag the content tree both horizontally and vertically. As a result, longer file names are not readable.
-*  The search results are inconsistent for the same property predicate used twice in the search forms.
-*  The text on the intermediate login pages are not localized for all languages.
+* Profile picture cannot be updated on the Brand Portal.
+* The content tree pane is not resizable. If the file name is longer than the default width of the content tree, you cannot drag the content tree both horizontally and vertically. As a result, longer file names are not readable.
+* The search results are inconsistent for the same property predicate used twice in the search forms.
+* The text on the intermediate login pages are not localized for all languages.
     
 **Enhancements**
 
 This release includes the following enhancements:
-*   A new modern PDF viewer is now available for an improved preview of the PDF assets.
-*   You can now choose to enable or disable asset sourcing notifications for Administrators. Navigate to [!UICONTROL General Settings] and then enable or disable [!UICONTROL `Notify Administrator of asset contribution`].
+* A new modern PDF viewer is now available for an improved preview of the PDF assets.
+* You can now choose to enable or disable asset sourcing notifications for Administrators. Navigate to [!UICONTROL General Settings] and then enable or disable [!UICONTROL `Notify Administrator of asset contribution`].
 
     ![Notify Administrator for asset contribution](assets/notify-admin.png)
 
-*   An unauthorized user cannot request access to the Brand Portal if the request access is disabled.
-*   The organizations only that are provisioned for Brand Portal are visible on the profile picker list.
+* An unauthorized user cannot request access to the Brand Portal if the request access is disabled.
+* The organizations only that are provisioned for Brand Portal are visible on the profile picker list.
 
 **Known Issues**
 
-This release includes the following known issue:
+This release includes the following known issues:
 
 * Partial localization in Asset sourcing report content.
 * Few fields of the user profile are not editable on user profile.
@@ -78,18 +89,19 @@ This release includes the following known issue:
 **Critical Issues Fixed**
 
 This release include fixes to the following critical issues:
-*   Slow response times while copying large files from Brand Portal to a third-party tool.
-*   When you select the renditions count checkbox, the checkboxes to select individual renditions are disabled.
-*   Slow response time for search.
+
+* Slow response times while copying large files from Brand Portal to a third-party tool.
+* When you select the renditions count checkbox, the checkboxes to select individual renditions are disabled.
+* Slow response time for search.
 
 >[!IMPORTANT]
 >
 >Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of Pulse notifications, you will continue receiving email notifications for the following events: 
->*  Sharing assets via link
->*  Requesting access workflow
->*  Sharing of contribution folder
->*  Initiating export to AEM
->*  Completed exporting to AEM
+>* Sharing assets via link
+>* Requesting access workflow
+>* Sharing of contribution folder
+>* Initiating export to AEM
+>* Completed exporting to AEM
 >
 
 ### August 2022 release {#aug-2022}
@@ -97,6 +109,7 @@ This release include fixes to the following critical issues:
 **Critical Issues Fixed**
 
 This release include fixes to the following critical issues:
+
 * When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
 * When the preview action fails, there is no notification to communicate the failure.
 * Inaccurate value for the totalUploadedSize property for each asset is fixed.
@@ -117,7 +130,7 @@ This release includes fixes to the following critical issues:
 * When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
 * When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
 * Issues while downloading video assets from certain folders available on Brand Portal.
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 * Sourcing published report displays an incorrect job start time.
 
 ### February 2022 release {#feb-2022}
@@ -224,7 +237,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >

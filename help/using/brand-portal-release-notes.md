@@ -61,6 +61,7 @@ This release includes the following known issues:
 **Bug Fixes**
 
 This release includes fixes to the following critical issues:
+
 * Profile picture cannot be updated on the Brand Portal.
 * The content tree pane is not resizable. If the file name is longer than the default width of the content tree, you cannot drag the content tree both horizontally and vertically. As a result, longer file names are not readable.
 * The search results are inconsistent for the same property predicate used twice in the search forms.
@@ -69,6 +70,7 @@ This release includes fixes to the following critical issues:
 **Enhancements**
 
 This release includes the following enhancements:
+
 * A new modern PDF viewer is now available for an improved preview of the PDF assets.
 * You can now choose to enable or disable asset sourcing notifications for Administrators. Navigate to [!UICONTROL General Settings] and then enable or disable [!UICONTROL `Notify Administrator of asset contribution`].
 

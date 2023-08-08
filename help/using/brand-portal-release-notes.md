@@ -32,13 +32,17 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 #### Bug Fixes and enhancements {#bug-fixes-enhancements}
 
-This release includes fixes to the following critical issues and enhancements:
+This release includes fixes to the following enhancements:
 
-* Performance improvements while loading assets on the [!UICONTROL Download] pop up. 
+* Performance improvements while loading assets on the [!UICONTROL Download] pop up.
+* When you download an asset or a rendition of an asset, it is now downloaded in its original file type format instead of a zip file.
+
+This release includes fixes to the following bug fixes:
+
 * The long labels or tags do not display appropriately for search filters. 
 * Unable to display long rendition names on the Download dialog.
 * Unable to preview video assets in Card view.
-* When you download an asset or a rendition of an asset, it is now downloaded in its original file type format instead of a zip file. 
+ 
 
 ## Previous releases
 

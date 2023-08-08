@@ -34,11 +34,11 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes fixes to the following critical issues:
 
-* For some Brand Portal users, the [!UICONTROL Download] pop up takes time in loading the assets if they are large in size.
-* In Tag Picker, the **[!UICONTROL General Tags]** with long labels get truncated.
-* When you are trying to download renditions, the rendition names are getting trimmed. It affects in understanding which rendition you are downloading.
-* While previewing the video-type asset in card view, the asset does not load.
-* If you are trying to download a single asset or a single rendition, the downloaded file is of zip type.
+* The [!UICONTROL Download] pop up takes a lot of time while loading assets.
+* The long labels or tags do not display appropriately for search filters. 
+* Unable to display long rendition names on the Download dialog.
+* Unable to preview video assets in Card view.
+* While downloading an asset or a rendition of an asset, the downloaded file is of zip type instead of retaining the original source file type. 
 
 ## Previous releases
 

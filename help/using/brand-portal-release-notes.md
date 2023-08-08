@@ -38,7 +38,7 @@ This release includes fixes to the following critical issues and enhancements:
 * The long labels or tags do not display appropriately for search filters. 
 * Unable to display long rendition names on the Download dialog.
 * Unable to preview video assets in Card view.
-* When you downloaded an asset or a rendition of an asset, it is now downloaded in its original file type format instead of a zip file. 
+* When you download an asset or a rendition of an asset, it is now downloaded in its original file type format instead of a zip file. 
 
 ## Previous releases
 

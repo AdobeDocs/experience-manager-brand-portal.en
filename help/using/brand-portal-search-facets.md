@@ -62,7 +62,7 @@ To add a search predicate to the **[!UICONTROL Filters]** panel:
    >
    >On selecting **[!UICONTROL Partial Search]** checkbox, **[!UICONTROL Ignore Case]** is selected by default.
 
-1. In the **[!UICONTROL Property Name]** field, open property picker and select the property based on which the search is performed. Alternatively, enter a name for the property. For example, enter `  jcr :content/metadata/dc:title` or `./jcr:content/metadata/dc:title`.
+1. In the **[!UICONTROL Property Name]** field, open property picker and select the property based on which the search is performed. Alternatively, enter a name for the property. For example, enter `jcr :content/metadata/dc:title` or `./jcr:content/metadata/dc:title`.
 
    >[!NOTE]
    >
@@ -105,7 +105,8 @@ Similar to the way you add a **[!UICONTROL Property]** predicate, you can add th
 
 >[!NOTE]
 >
->Do not use **[!UICONTROL Options Predicate]**, **[!UICONTROL Publish Status Predicate]**, and **[!UICONTROL Rating Predicate]** as these predicates are not functional in Brand Portal.
+>* Do not use **[!UICONTROL Options Predicate]**, **[!UICONTROL Publish Status Predicate]**, and **[!UICONTROL Rating Predicate]** as these predicates are not functional in Brand Portal.
+>* Folder type predicate `(nt:folder type)` is not supported on Brand Portal and may cause performance issues. If it is present in published custom search form then it can be deleted by editing search form.
 
 ## Delete a search predicate {#delete-a-search-predicate}
 

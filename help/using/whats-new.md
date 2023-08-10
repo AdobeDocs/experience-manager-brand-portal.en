@@ -1,8 +1,8 @@
 ---
 title: What's new in Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: What are the new features and enhancements for 2032.05.0
-seo-description: What are the new features and enhancements for 2023.05.0
+description: What are the new features and enhancements for 2032.08.0
+seo-description: What are the new features and enhancements for 2023.08.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -14,6 +14,10 @@ exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 # What's new in Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
+
+## What changed in 2023.08.0 {#what-changed-in-August-2023}
+
+Brand Portal 2023.08.0 is an internal release that includes fixes to the critical issues. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 
 ## What changed in 2023.05.0 {#what-changed-in-May-2023}
 
@@ -330,9 +334,9 @@ The existing workflow of downloading assets from Brand Portal is inevitably foll
 
 In Brand Portal 6.4.7, the Brand Portal administrators can configure the asset  **[!UICONTROL Download]** settings. The available configurations are:
 
-*  **[!UICONTROL Fast Download]**
-*  **[!UICONTROL Custom Renditions]**
-*  **[!UICONTROL System Renditions]**
+* **[!UICONTROL Fast Download]**
+* **[!UICONTROL Custom Renditions]**
+* **[!UICONTROL System Renditions]**
 
 The Brand Portal administrator can enable any combination to configure asset download.  
 

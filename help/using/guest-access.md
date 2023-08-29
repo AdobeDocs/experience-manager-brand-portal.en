@@ -13,7 +13,7 @@ exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
 ---
 # Guest Access to Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal allows guest access to the portal. A guest user does not need credentials to enter the portal and has access to the public assets (and collections) of the portal. Users in the guest session can add assets to lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [[!UICONTROL End Session]](#exit-guest-session).
+Experience Manager Assets Brand Portal allows guest access to the portal. A guest user does not need credentials to enter the portal and has access to the public assets (and collections) of the portal. Users in the guest session can add assets to lightbox (private collection) and download the same until their session lasts or unless the guest user chooses to [[!UICONTROL End Session]](#exit-guest-session). A guest user session remains active for 15 minutes, whereas, the actual guest user timeout is 2 hours.
 
 Guest access functionality enables organizations to [quickly share approved assets](../using/brand-portal-sharing-folders.md#how-to-share-folders) with the intended audience at scale without having to onboard them. Brand Portal 6.4.2 onwards is equipped to serve multiple concurrent guest users, which is 10% of the total user quota per organization. Allowing guest access saves time to manage and on-board scores of users with limited functionalities on Brand Portal.  
 Organizations can enable (or disable) guest access on Brand Portal account of the organization using **[!UICONTROL Allow Guest Access]** option from **[!UICONTROL Access]** settings in the administrative tools panel.
@@ -34,7 +34,6 @@ To enter Brand Portal anonymously, select **[!UICONTROL Click here]** correspond
 ![](assets/bp-login-screen.png) 
 
 ## Guest session duration {#guest-session-duration}
-
 
 A guest user session remains active for 15 mins. 
 This means that the state of the **[!UICONTROL Lightbox]** is preserved for 15 mins from the session start time, and after that the current guest session restarts so the Lightbox state is lost. 

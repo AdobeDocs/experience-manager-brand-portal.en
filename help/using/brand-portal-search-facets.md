@@ -66,7 +66,7 @@ To add a search predicate to the **[!UICONTROL Filters]** panel:
 
    >[!NOTE]
    >
-   >In Brand Portal, all the String properties (except the ones starting with `xmp`) in `jcrcontent/metadata` of `dam:asset` are indexed by default. 
+   >In Brand Portal, all the String properties (except the ones starting with `xmp`) in `jcrcontent/metadata` of `dam:asset` are indexed by default. Rest all other custom properties of any type cannot be indexed.
    >
    >Any property which is indexed can be used while creating a property predicate. If any non-indexed property is configured, the search query on an un-indexed property may not give any search result. 
 

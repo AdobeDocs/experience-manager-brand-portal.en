@@ -48,7 +48,7 @@ This release includes the following enhancements:
 ### August 2023 release {#aug-2023}
 
 **Bug fixes and enhancements**
-This release includes the following enhancements:
+This release includes the following bug fixes and enhancements:
 
 * Performance improvements while loading assets on the [!UICONTROL Download] pop up.
 * When you download an asset or a rendition of an asset, it is now downloaded in its original file type format instead of a zip file.

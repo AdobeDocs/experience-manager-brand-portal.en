@@ -1,7 +1,7 @@
 ---
 title: Release Notes
 seo-title: Release Notes
-description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
+description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.10.0 release.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -13,25 +13,41 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 ---
 # Release Notes {#release-notes}
 
-Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
+Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.10.0 release.
 
 ## Release Information {#release-information}
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.08.0|
-| Date | August 2023 |
+| Version | 2023.10.0|
+| Date | October 2023 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time to market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
 
-## What's New in 2023.08.0 {#whats-new-in-2023.08.0}
+## What's New in 2023.10.0 {#whats-new-in-2023.10.0}
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
-#### Bug fixes and enhancements {#bug-fixes-enhancements}
+#### Bug fixes {#bug-fixes}
 
+This release includes the following enhancements:
+
+* Unable to save [!UICONTROL Date] predicate to the [!UICONTROL Smart Collection].
+* Cannot save checkbox values to the [!UICONTROL Smart Collection].
+* The format of [!UICONTROL Date and Time] is inconsistent while working in locale other than English.
+* While performing search for assets, the [!UICONTROL Delete] button is missing.
+* If the [!UICONTROL Title] field contains localized symbols in [!UICONTROL Link Share], the report cannot be downloaded.
+* While viewing a PDF-type document, the labels and tool tips are not localized.
+* When you try using partial search in the OmniSearch, the results are not accurate.
+* For editor based on config values, the [UICONTROL Download] option is not visible for the expired assets.
+
+## Previous releases
+
+### August 2023 release {#aug-2023}
+
+**Bug fixes and enhancements**
 This release includes the following enhancements:
 
 * Performance improvements while loading assets on the [!UICONTROL Download] pop up.
@@ -42,9 +58,6 @@ This release includes the following bug fixes:
 * The long labels or tags do not display appropriately for search filters. 
 * Unable to display long rendition names on the Download dialog.
 * Unable to preview video assets in Card view.
- 
-
-## Previous releases
 
 ### May 2023 release {#may-2023}
 
@@ -94,7 +107,7 @@ This release includes the following known issues:
 
 **Critical Issues Fixed**
 
-This release include fixes to the following critical issues:
+This release includes fixes to the following critical issues:
 
 * Slow response times while copying large files from Brand Portal to a third-party tool.
 * When you select the renditions count checkbox, the checkboxes to select individual renditions are disabled.

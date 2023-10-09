@@ -48,7 +48,7 @@ This release includes the following enhancements:
 
 * When you perform a partial search using the OmniSearch field, the results are not accurate.
 
-* For editor based on config values, the [UICONTROL Download] option is not visible for the expired assets.
+* For editor based on config values, the [!UICONTROL Download] option is not visible for the expired assets.
 
 
 ## Previous releases

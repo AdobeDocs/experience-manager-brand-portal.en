@@ -46,7 +46,7 @@ This release includes the following enhancements:
 
 * While viewing a PDF-type document, the labels and tool tips are not localized.
 
-* When you perform a partial search using the OmniSearch bar, the results are not accurate.
+* When you perform a partial search using the OmniSearch field, the results are not accurate.
 
 * For editor based on config values, the [UICONTROL Download] option is not visible for the expired assets.
 

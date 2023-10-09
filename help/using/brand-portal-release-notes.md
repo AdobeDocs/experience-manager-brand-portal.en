@@ -35,13 +35,21 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 This release includes the following enhancements:
 
 * Unable to save [!UICONTROL Date] predicate to the [!UICONTROL Smart Collection].
-* Cannot save checkbox values to the [!UICONTROL Smart Collection].
-* The format of [!UICONTROL Date and Time] is inconsistent while working in locale other than English.
+
+* Issues while saving checkbox values to the [!UICONTROL Smart Collection].
+
+* The [!UICONTROL Date and Time] format is inconsistent while working in locale other than English.
+
 * While performing search for assets, the [!UICONTROL Delete] button is missing.
+
 * If the [!UICONTROL Title] field contains localized symbols in [!UICONTROL Link Share], the report cannot be downloaded.
+
 * While viewing a PDF-type document, the labels and tool tips are not localized.
-* When you try using partial search in the OmniSearch, the results are not accurate.
+
+* When you perform a partial search using the OmniSearch bar, the results are not accurate.
+
 * For editor based on config values, the [UICONTROL Download] option is not visible for the expired assets.
+
 
 ## Previous releases
 

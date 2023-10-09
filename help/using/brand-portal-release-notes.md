@@ -40,7 +40,7 @@ This release includes the following bug fixes:
 
 * While performing search for assets, the [!UICONTROL Delete] button is missing.
 
-* If the [!UICONTROL Title] field contains multiple special symbols in [!UICONTROL Link Share], the report cannot be downloaded.
+* If the [!UICONTROL Title] field contains multibyte symbols in [!UICONTROL Link Share], the report cannot be downloaded.
 
 * While viewing a PDF-type document, the labels and tool tips are not localized.
 
@@ -48,7 +48,7 @@ This release includes the following bug fixes:
 
 This release includes the following enhancements:
 
-* Performance improvements while navigating assets in the [!UICONTROL Collections].
+* Performance improvements while browsing through [!UICONTROL Collections].
 
 * When you perform a partial search using the OmniSearch field, the results are not accurate.
 

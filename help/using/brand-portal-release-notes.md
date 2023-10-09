@@ -32,31 +32,32 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 #### Bug fixes {#bug-fixes}
 
-This release includes the following enhancements:
+This release includes the following bug fixes:
 
-* Unable to save [!UICONTROL Date] predicate to the [!UICONTROL Smart Collection].
-
-* Issues while saving checkbox values to the [!UICONTROL Smart Collection].
+* Unable to save [!UICONTROL Date] and [!UICONTROL Options] predicates to the [!UICONTROL Smart Collection].
 
 * The [!UICONTROL Date and Time] format is inconsistent while working in locale other than English.
 
 * While performing search for assets, the [!UICONTROL Delete] button is missing.
 
-* If the [!UICONTROL Title] field contains localized symbols in [!UICONTROL Link Share], the report cannot be downloaded.
+* If the [!UICONTROL Title] field contains multiple special symbols in [!UICONTROL Link Share], the report cannot be downloaded.
 
 * While viewing a PDF-type document, the labels and tool tips are not localized.
 
+#### Enhancements {#enhancements}
+
+This release includes the following enhancements:
+
+* Performance improvements while navigating assets in the [!UICONTROL Collections].
+
 * When you perform a partial search using the OmniSearch field, the results are not accurate.
-
-* For editor based on config values, the [!UICONTROL Download] option is not visible for the expired assets.
-
 
 ## Previous releases
 
 ### August 2023 release {#aug-2023}
 
 **Bug fixes and enhancements**
-This release includes the following bug fixes and enhancements:
+This release includes the following enhancements:
 
 * Performance improvements while loading assets on the [!UICONTROL Download] pop up.
 * When you download an asset or a rendition of an asset, it is now downloaded in its original file type format instead of a zip file.

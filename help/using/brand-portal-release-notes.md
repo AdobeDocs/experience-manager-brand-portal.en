@@ -50,7 +50,7 @@ This release includes the following enhancements:
 
 * Performance improvements while browsing through [!UICONTROL Collections].
 
-* When you perform a partial search using the OmniSearch field, the results are not accurate.
+* Improvements in search results while performing a partial search using the OmniSearch field.
 
 ## Previous releases
 

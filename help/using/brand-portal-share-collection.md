@@ -35,15 +35,15 @@ Following are the steps to share a collection with the authorized Brand Portal u
 
 1. Log in to your Brand Portal tenant. By default, the **[!UICONTROL Files]** view opens which contains all the published assets and folders. 
 
-1. From the quick navigations on the top, click **[!UICONTROL Collections]**. 
+1. From the quick navigation on the top, click **[!UICONTROL Collections]**. 
 
 1. From the **[!UICONTROL Collections]** console, do one of the following:
 
-   * Hover the pointer over the collection you want to share. From the quick action thumbnails available for the collection, click the **[!UICONTROL Settings]** icon.
+   * Hover the pointer over the collection that you want to share. From the quick action thumbnails available for the collection, click the **[!UICONTROL Settings]** icon.
 
      ![](assets/settings-icon.png)
 
-   * Select the collection you want to share. From the toolbar at the top, click **[!UICONTROL Settings]**.
+   * Select the collection that you want to share. From the toolbar at the top, click **[!UICONTROL Settings]**.
     
      ![](assets/collection-console.png)
 

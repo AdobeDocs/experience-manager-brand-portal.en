@@ -15,7 +15,15 @@ exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 
 A collection represents a group of related assets stored together in Adobe Experience Manager Assets Brand Portal. The users can create smart collections by [applying omnisearch or facet search to filter out related assets](brand-portal-searching.md) and store them together for easy access and further sharing it with other Brand Portal users. 
 
- The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections. 
+ <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
+
+Collections are shared as link via an e-mail. The users with whom you are sharing collections are required to have an account on Brand Portal. Everybody with access to the share link can open the collection, whereas, shared e-mails can be forwarded to anyone. Additionally, shared links are temporary and accessible for a limited duration only. Alternatively, users can be invited as permanent members to collections. There are the following types of users for the collections:
+
+* **Administrators** can share or unshare a collection with authorized Brand Portal users. They can invite other users to a specific collection and define their role on that collection. In addition, administrators can create public collections.
+
+* **Editors** are allowed to create and share collections. They can invite other users to a specific collection and define their role on that collection. In addition, they can also share collections, if they have been invited to the collection as an editor or owner.
+
+* **Viewers** can create private collections only. They are not allowed to share a collection even when they were invited as owners.
 
 >[!NOTE]
 >

@@ -17,7 +17,7 @@ A collection represents a group of related assets stored together in Adobe Exper
 
  <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Collections are shared as link via an e-mail. The users with whom you are sharing collections are required to have an account on Brand Portal. Everybody with access to the share link can open the collection, whereas, shared e-mails can be forwarded to anyone. Additionally, shared links are temporary and accessible for a limited duration only. Alternatively, users can be invited as permanent members to collections. There are the following types of users for the collections:
+Collections are shared as link via an e-mail. Everybody with access to the share link can open the collection, whereas, shared e-mails can be forwarded to anyone. Additionally, [shared links](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) are temporary and accessible for a limited duration only. Alternatively, users can be invited as permanent members to collections. There are the following types of users for the collections:
 
 * **Administrators** can share or unshare a collection with authorized Brand Portal users. They can invite other users to a specific collection and define their role on that collection. In addition, administrators can create public collections.
 

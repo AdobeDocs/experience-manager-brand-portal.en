@@ -15,7 +15,15 @@ exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 
 A collection represents a group of related assets stored together in Adobe Experience Manager Assets Brand Portal. The users can create smart collections by [applying omnisearch or facet search to filter out related assets](brand-portal-searching.md) and store them together for easy access and further sharing it with other Brand Portal users. 
 
- The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections. 
+ <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
+
+Collections are shared as link via an e-mail. Everybody with access to the share link can open the collection, whereas, shared e-mails can be forwarded to anyone. Additionally, [shared links](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) are temporary and accessible for a limited duration only. Alternatively, users can be invited as permanent members to collections. There are the following types of users for the collections:
+
+* **Administrators** can share or unshare a collection with authorized Brand Portal users. They can invite other users to a specific collection and define their role on that collection. In addition, administrators can create public collections.
+
+* **Editors** are allowed to create and share collections. They can invite other users to a specific collection and define their role on that collection. In addition, they can also share collections, if they have been invited to the collection as an editor or owner.
+
+* **Viewers** can create private collections only. They are not allowed to share a collection even when they were invited as owners.
 
 >[!NOTE]
 >
@@ -27,15 +35,15 @@ Following are the steps to share a collection with the authorized Brand Portal u
 
 1. Log in to your Brand Portal tenant. By default, the **[!UICONTROL Files]** view opens which contains all the published assets and folders. 
 
-1. From the quick navigations on the top, click **[!UICONTROL Collections]**. 
+1. From the quick navigation on the top, click **[!UICONTROL Collections]**. 
 
 1. From the **[!UICONTROL Collections]** console, do one of the following:
 
-   * Hover the pointer over the collection you want to share. From the quick action thumbnails available for the collection, click the **[!UICONTROL Settings]** icon.
+   * Hover the pointer over the collection that you want to share. From the quick action thumbnails available for the collection, click the **[!UICONTROL Settings]** icon.
 
      ![](assets/settings-icon.png)
 
-   * Select the collection you want to share. From the toolbar at the top, click **[!UICONTROL Settings]**.
+   * Select the collection that you want to share. From the toolbar at the top, click **[!UICONTROL Settings]**.
     
      ![](assets/collection-console.png)
 

@@ -16,7 +16,7 @@ As a marketer, you sometimes need to collaborate with channel partners and inter
 
 However, it is a challenge to develop solutions that support efficient and secure sharing of approved brand logos, guidelines, campaign assets, or product shots with extended internal teams, partners, and resellers.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** focuses on the marketer’s need to effectively collaborate with the globally distributed Brand Portal users by providing asset distribution and asset contribution capabilities.
+**Adobe Experience Manager (AEM) Assets Brand Portal** focuses on the marketer's need to effectively collaborate with the globally distributed Brand Portal users by providing asset distribution and asset contribution capabilities.
 
 Asset distribution allows you to easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. Whereas, Asset contribution enables the Brand Portal users with the ability to upload assets to Brand Portal and publish to Experience Manager Assets, without needing access to the author environment. The contribution feature is called as **Assets Sourcing in Brand Portal**. And together, it improves the overall Brand Portal experience of asset distribution and contribution from the Brand Portal users (external agencies/teams), accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access.
 See, [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
@@ -138,6 +138,7 @@ In addition to the above tasks, an Author in AEM Assets can perform the followin
 ## Alternate alias for Brand Portal url {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.  
+If tenant name is greater than 32 characters then tenant alias needs to be created.
 Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain `geomettrix.brand-portal.adobe.com` can get `geomettrixinc.brand-portal.adobe.com` created on request.
 
 However, AEM Author instance can be [configured](../using/configure-aem-assets-with-brand-portal.md) only with the tenant id URL and not with tenant alias (alternate) URL.
@@ -160,7 +161,7 @@ To request access, do the following:
 
    The [!UICONTROL Request Access] page opens.
 
-1. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
+1. To request access to an organization's Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
    In the [!UICONTROL Request Access] page, sign in using your ID (scenario 1) or create an [!UICONTROL Adobe ID] (scenario 2):
 

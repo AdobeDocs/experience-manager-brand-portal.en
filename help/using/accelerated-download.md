@@ -30,9 +30,8 @@ The **[!UICONTROL Fast Download]** configuration is by default enabled, which si
 To download the files faster, ensure the following:
 
 * Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]** and verify that the **[!UICONTROL Fast Download]** configuration is enabled in **[!UICONTROL Download Settings]**.
-* Ensure that port 33001 (both TCP and UDP) is open on the firewall. For more information on the prerequisites, see [IBM&reg; Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
-* **Install IBM&reg; Aspera Connect 3.9.9** in your browser's extension using administrator privileges (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
-* For platform support of Aspera transfer client, see [IBM&reg; Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
+* Ensure that port 33001 (both TCP and UDP) is open on the firewall.
+* **Install IBM&reg; Aspera Connect 3.9.9** in your browser's extension using administrator privileges ([IBM&reg; Asperra Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)).
 
 >[!NOTE]
 >

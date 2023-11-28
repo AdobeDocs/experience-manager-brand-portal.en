@@ -31,7 +31,7 @@ To download the files faster, ensure the following:
 
 * Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Download]** and verify that the **[!UICONTROL Fast Download]** configuration is enabled in **[!UICONTROL Download Settings]**.
 * Ensure that port 33001 (both TCP and UDP) is open on the firewall.
-* **Install IBM&reg; Aspera Connect 3.9.9** in your browser's extension using administrator privileges ([IBM&reg; Asperra Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)).
+* **Install IBM&reg; Aspera Connect 3.9.9** in your browser's extension using administrator privileges ([IBM&reg; Aspera Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)).
 
 >[!NOTE]
 >

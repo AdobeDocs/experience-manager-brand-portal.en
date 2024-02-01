@@ -5,6 +5,7 @@ solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager Assets
 type: Documentation
 index: y
+recommendations: noDisplay
 ---
 
 # Metadata for internal use

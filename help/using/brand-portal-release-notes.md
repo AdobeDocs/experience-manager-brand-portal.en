@@ -36,15 +36,15 @@ This release includes the following bug fixes:
 
 * Unable to download digital assets protected by DRM in Turkish locale.
 
-* Unable to open and download the existing reports in list view.
+* Unable to open and download the existing reports containing assets with multi-line title.
 
-* When you download assets using [!UICONTROL Download] button from the menu bar, you get only 1000 assets downloaded in a .zip folder.
+* When you download assets using [!UICONTROL Download] button from the action bar, a maximum of 1000 assets are downloaded.
 
-* The .PSD type assets name is incorrect in a card view.
+* Incorrect name of PSD type assets, when viewing in the Content Tree.
 
-* If you try to delete asset renditions using [!UICONTROL Delete Renditions] button on the asset details page, the renditions are not deleted.
+* [!UICONTROL Delete Rendition] option on the asset details page is not working.
 
-* The title and size of an asset are appearing in multiple lines.
+* Misaligned title and size of assets in download pop-up window.
 
 * Unable to load folders in a card view if you switch from tree view.
 
@@ -52,9 +52,9 @@ This release includes the following bug fixes:
 
 * The user interface error is not localized while creating a report when all the checkboxes are not selected.
 
-* When you create a report, few labels are not localized.
+* While creating a report, labels are not localized.
 
-* Various support administrators are termed as *administrators* in Brand Portal.
+* Support administrators were termed as administrators in Brand Portal.
 
 ## Previous releases
 

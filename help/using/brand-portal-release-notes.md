@@ -42,15 +42,15 @@ This release includes the following bug fixes:
 
 * The .PSD type assets name is incorrect in a card view.
 
-* If you try to delete asset renditions using [!UICONTROL Delete Renditions] button on the assets detail page, the renditions are not deleted.
+* If you try to delete asset renditions using [!UICONTROL Delete Renditions] button on the asset's detail page, the renditions are not deleted.
 
 * The title and size of an asset are appearing in multiple lines.
 
 * Unable to load folders in a card view if you switch from tree view.
 
-* Even if the [!UICONTROL Fast Download] is enabled in the [!UICONTROL Download Settings] for both editors and admins, the specific tenants were not able to download the expired assets.
+* Even if the [!UICONTROL Fast Download] is enabled in the [!UICONTROL Download Settings] for both editors and admins, the specific tenants are not able to download the expired assets.
 
-* The user interface error while creating a report if all the checkboxes are not selected is not localized.
+* The user interface error is not localized while creating a report when all the checkboxes.
 
 * When you create a report, a few labels are not localized.
 

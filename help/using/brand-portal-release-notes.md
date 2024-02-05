@@ -42,7 +42,7 @@ This release includes the following bug fixes:
 
 * The .PSD type assets name is incorrect in a card view.
 
-* If you try to delete asset renditions using [!UICONTROL Delete Renditions] button on the asset's detail page, the renditions are not deleted.
+* If you try to delete asset renditions using [!UICONTROL Delete Renditions] button on the asset details page, the renditions are not deleted.
 
 * The title and size of an asset are appearing in multiple lines.
 
@@ -50,15 +50,15 @@ This release includes the following bug fixes:
 
 * Even if the [!UICONTROL Fast Download] is enabled in the [!UICONTROL Download Settings] for both editors and admins, the specific tenants are not able to download the expired assets.
 
-* The user interface error is not localized while creating a report when all the checkboxes.
+* The user interface error is not localized while creating a report when all the checkboxes are not selected.
 
-* When you create a report, a few labels are not localized.
+* When you create a report, few labels are not localized.
 
 * Various support administrators are termed as *administrators* in Brand Portal.
 
 ## Previous releases
 
-### October 2024 release {#oct-2024}
+### October 2023 release {#oct-2023}
 
 **Bug fixes and enhancements**
 This release includes the following enhancements:

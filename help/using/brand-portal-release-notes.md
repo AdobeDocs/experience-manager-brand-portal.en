@@ -35,7 +35,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 This release includes the following bug fixes:
 
 * Unable to download digital assets protected by DRM in Turkish locale.
-* Unable to open and download the existing reports containing assets with multi line title.
+* Unable to open and download the existing reports containing assets with multi-line title.
 * When you download assets using [!UICONTROL Download] button from the action bar, a maximum of 1000 assets are downloaded.
 * Incorrect name of PSD type assets, when viewing in the Content Tree.
 * [!UICONTROL Delete Rendition] option on the asset details page is not working.

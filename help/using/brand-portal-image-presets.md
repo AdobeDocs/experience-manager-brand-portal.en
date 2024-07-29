@@ -1,23 +1,19 @@
 ---
 title: Apply image presets or dynamic renditions
-seo-title: Apply image presets or dynamic renditions
-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties. 
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties. 
-uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
+description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to deliver images of different sizes, formats, and properties dynamically.
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
 ---
 # Apply image presets or dynamic renditions {#apply-image-presets-or-dynamic-renditions}
 
-Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
+Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to deliver images of different sizes, formats, and properties dynamically.
 
 An image preset is used to generate dynamic renditions of images that can be previewed and downloaded. When previewing images and their renditions, you can choose a preset to reformat images to the specifications set by your Administrator.
 
-(*If Experience Manager Assets author instance is running on **Dynamic Media Hybrid mode***) To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid tiff rendition exists at the Experience Manager Assets author instance from where you publish to Brand Portal. When you publish the asset, its PTIFF rendition is also published to Brand Portal.
+(*If Experience Manager Assets author instance is running in **Dynamic Media Hybrid mode***). To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid TIFF rendition exists at the Experience Manager Assets author instance from where you publish to Brand Portal. When you publish the asset, its PTIFF rendition is also published to Brand Portal.
 
 >[!NOTE]
 >
@@ -32,13 +28,13 @@ The Experience Manager Assets administrators can create image presets that appea
 
 >[!NOTE]
 >
->Dynamic renditions of an image are created using its Pyramid TIFF. If the Pyramid TIFF is not available for any asset, dynamic renditions for that asset cannot be fetched in Brand portal.
+>Dynamic renditions of an image are created using its Pyramid TIFF. If the Pyramid TIFF is not available for any asset, dynamic renditions for that asset cannot be fetched in Brand Portal.
 >
->If Experience Manager Assets author instance is running on **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in Experience Manager Assets repository. 
+>If the Experience Manager Assets Author instance is running in **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in the Experience Manager Assets repository. 
 >
->Whereas, if Experience Manager Assets author instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
+>Whereas if Experience Manager Assets author instance is running in **Dynamic Media Scene7 mode**, then Pyramid TIFF renditions of image assets exist on the Scene7 server.
 >
->When such assets are published to brand portal, image presets are applied and dynamic renditions are displayed.
+>When such assets are published to Brand Portal, image presets are applied and dynamic renditions are displayed.
 
 
 1. From the toolbar at the top, click the Experience Manager logo to access administrative tools.
@@ -62,7 +58,7 @@ The Experience Manager Assets administrators can create image presets that appea
 1. Click **[!UICONTROL Save]**. The image preset is created and displayed on the image presets page.
 1. To delete an image preset, select it from the image presets page and click **[!UICONTROL Delete]**. In the confirmation page, click **[!UICONTROL Delete]** to confirm the deletion. The image preset is removed from the image presets page.
 
-## Apply image presets when previewing images  {#apply-image-presets-when-previewing-images}
+## Apply image presets when previewing images {#apply-image-presets-when-previewing-images}
 
 When previewing images and their renditions, choose from the existing presets to reformat images to the specifications set by your Administrator.
 
@@ -81,11 +77,11 @@ When downloading images and their renditions from Brand Portal, you cannot choos
 
 1. From the Brand Portal interface, do one of the following:
 
-    * Hover the pointer over the image you want to download. From the quick action thumbnails available, click the **[!UICONTROL Download]** icon.
+    * Hover the pointer over the image that you want to download. From the quick action thumbnails available, click the **[!UICONTROL Download]** icon.
 
    ![](assets/downloadsingleasset.png)
 
-    * Select the image you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
+    * Select the image that you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
 
    ![](assets/downloadassets.png)
 
@@ -93,9 +89,9 @@ When downloading images and their renditions from Brand Portal, you cannot choos
 
    ![](assets/donload-assets-dialog.png)
 
-1. To download dynamic renditions of the asset, select the **[!UICONTROL Dynamic Rendition(s)]** option.
-1. Customize image preset properties based on which you want to dynamically reformat the image and its renditions during download. Specify the size, format, color space, resolution, and image modifier.
+1. To download dynamic renditions of the asset, select the **[!UICONTROL Dynamic Renditions]** option.
+1. Customize image preset properties to reformat the image and its renditions dynamically during download. Specify the size, format, color space, resolution, and image modifier.
 
    ![](assets/dynamicrenditions.png)
 
-1. Click **[!UICONTROL Download]**. The custom dynamic renditions are downloaded in a ZIP file along with the image and renditions that you chose to download. However, no zip file is created if a single asset is downloaded, which ensures speedy download.
+1. Click **[!UICONTROL Download]**. The custom dynamic renditions are downloaded in a ZIP file along with the image and renditions that you chose to download. However, no zip file is created if a single asset is downloaded, which ensures a speedy download.

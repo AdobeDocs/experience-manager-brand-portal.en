@@ -1,14 +1,10 @@
 ---
 title: Dynamic video support on Brand Portal
-seo-title: Dynamic video support on Brand Portal
 description: Dynamic video support on Brand Portal
-seo-description: Dynamic video support on Brand Portal
-uuid: a3502a4d-3971-4ea4-953c-44ba04446269
 contentOwner: mgulati
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
-discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
 ---
 # Dynamic video support on Brand Portal {#dynamic-video-support-on-brand-portal}
@@ -100,7 +96,7 @@ Ensure that the configuration details are the same in Brand Portal and **[!UICON
 ### Allowlist public egress IPs for Dynamic Media Scene7 mode
 
 If Dynamic Media **[!UICONTROL Scene7]**–having [secure preview enabled](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)–is used to serve video assets to Brand Portal, then **[!UICONTROL Scene7]** establishes a dedicated image server for staging environments or internal applications. Any request to this server checks the origin IP address. If the incoming request is not within the approved list of IP addresses, a failure response is returned.
-The **[!UICONTROL Scene7]** Company Administrator, therefore, configures an approved list of IP addresses for their company’s **[!UICONTROL Secure Testing]** environment, through **[!UICONTROL SPS]** (Scene7 Publishing System) flash UI. Make sure that the egress IP for your respective region (from the following) is added to that approved list.
+The **[!UICONTROL Scene7]** Company Administrator, therefore, configures an approved list of IP addresses for their company's **[!UICONTROL Secure Testing]** environment, through **[!UICONTROL SPS]** (Scene7 Publishing System) flash UI. Make sure that the egress IP for your respective region (from the following) is added to that approved list.
 To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 The egress IPs are as follows:
 

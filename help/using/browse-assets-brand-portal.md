@@ -103,7 +103,7 @@ The list view displays information for each resource at the current level. The L
 The path column lets you easily identify asset location in the folder hierarchy. You can navigate down the hierarchy by clicking the resource name, and back up by using the [breadcrumbs in the header](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
-Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
+Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
  -->
 
 ### View settings in list view
@@ -122,7 +122,7 @@ Selecting a resource in the first (leftmost) column displays child resources in 
 
 You can navigate up and down in the tree. Click the resource name or the chevron to the right of the resource name.
 
-* The resource name and chevron are highlighted when tapped or clicked.
+* The resource name and chevron are highlighted when clicked.
 * Tapping or clicking the thumbnail selects the resource.
 * When selected, a check mark is overlaid on the thumbnail and the resource name is highlighted.
 * The details of the selected resource are shown in the final column.
@@ -212,13 +212,13 @@ Deselecting All
 Comment Type: draft
 
 <p>In all cases, as you select items the count of the items selected is displayed at the upper right of the toolbar.</p>
-<p>You can deselect all items and exit selection mode by clicking or tapping the X next to the count.</p>
+<p>You can deselect all items and exit selection mode by clicking the X next to the count.</p>
 -->
 
 <!--
 Comment Type: draft
 
-<p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
+<p>In all views, all items can be deselected by clicking escape on the keyboard if you are using a desktop device.</p>
 -->
 
 ## Content Tree {#content-tree}

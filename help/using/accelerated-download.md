@@ -87,7 +87,7 @@ To download assets faster from Brand Portal:
 
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to download assets using IBM&reg; Aspera Connect. 
    
-   If you downloaded assets for the first time and do not have IBM&reg; Aspera Connect installed in your browser, you are prompted to install it. If the existing version is out-of-date, you are also prompted to install the [Aspera download accelerator](`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+   If you downloaded assets for the first time and do not have IBM&reg; Aspera Connect installed in your browser, you are prompted to install it. If the existing version is out-of-date, you are also prompted to install the [Aspera download accelerator](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all).
 
    ![](assets/aspera-not-launched.png)
 

@@ -142,7 +142,7 @@ The Brand Portal users access the **Contribution** folder and upload content in 
 
 **Question: What is the frequency of an import job that runs periodically in Experience Manager?**
 
-**Answer:** In Experience Manager Assets, polling is run every 5 mins.
+**Answer:** In Experience Manager Assets, polling is run every five minutes.
 
 
 

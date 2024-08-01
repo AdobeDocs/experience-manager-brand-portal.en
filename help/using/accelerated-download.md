@@ -1,25 +1,21 @@
 ---
 title: Speed up the Brand Portal downloads
-seo-title: Speed up the Brand Portal downloads
 description: Enhance download performance from Brand Portal and the shared links.
-seo-description: Enhance download performance from Brand Portal and the shared links.
-uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: Vishabh Gupta
 topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 ---
 # Speed up the Brand Portal downloads {#guide-to-accelerate-downloads-from-brand-portal}
 
 <!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
 
-Adobe Experience Manager Assets Brand Portal allows enhancing the download performance of large asset files by integrating with IBM&reg; Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve transfer speed of the asset files. This integration ensures enhanced download experience.
+Adobe Experience Manager Assets Brand Portal allows enhancing the download performance of large asset files by integrating with IBM&reg; Aspera Connect, which is an install-on-demand application. The application uses proprietary technology to remove TCP overheads and helps improve the transfer speed of the asset files. This integration ensures an enhanced download experience.
 
 >[!NOTE]
 >
->Download speed varies for users as it depends upon factors such as network bandwidth, server latency, and geographical location of clients.
+>Download speed varies for users because it depends on factors such as network bandwidth, server latency, and the geographical location of clients.
 
 The **[!UICONTROL Fast Download]** configuration is by default enabled, which significantly reduces the time taken to download the desired asset files from Brand Portal.
 
@@ -50,7 +46,7 @@ Following are the download domains for different geographies:
 
 ## Sample download performance using file accelerator {#expected-download-performance-using-file-accelerator}
 
-The following table shows download performance for a file that is 2 GB using Aspera Connect file download accelerator:
+The following table shows download performance for a file that is 2 GB using the Aspera Connect file download accelerator:
 
 *The observed results do vary due to factors such as network bandwidth, server latency, and client location, considering Brand Portal server is at Oregon (United States).*
 
@@ -81,23 +77,23 @@ To download assets faster from Brand Portal:
 
      ![select-asset](assets/select-asset.png)
 
-1. The **[!UICONTROL Download]** dialog listing all the selected assets opens. 
+1. The **[!UICONTROL Download]** dialog box listing all the selected assets opens. 
 
-   To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL Create separate folder for each asset]** check box. 
+   To preserve the Brand Portal folder hierarchy while downloading assets, select the **[!UICONTROL `Create separate folder for each asset`]** check box. 
 
-   The download button reflects the count of the selected items. Once you are done with applying the rules, click **[!UICONTROL Download items]**. To know more on how to apply rules, see [download assets](../using/brand-portal-download-assets.md#download-assets).
+   The download button reflects the count of the selected items. Once you are done with applying the rules, click **[!UICONTROL Download items]**. To learn more about how to apply the rules, see [download assets](../using/brand-portal-download-assets.md#download-assets).
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to download assets using IBM&reg; Aspera Connect. 
-
-   If you are downloading the assets for the first time and do not have IBM&reg; Aspera Connect installed in your browser or the existing version is out-of-date, you are prompted to install the Aspera download accelerator (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+   
+   If you downloaded assets for the first time and do not have IBM&reg; Aspera Connect installed in your browser, you are prompted to install it. If the existing version is out-of-date, you are also prompted to install the [Aspera download accelerator](`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
    ![](assets/aspera-not-launched.png)
 
 1. **Install Aspera Connect Client**
 
-   To install IBM&reg; Aspera Connect client setup, run the setup from  .msi  file of IBM&reg; Aspera Connect client application and follow the installation wizard.
+   To install IBM&reg; Aspera Connect client setup, run the setup from .msi file of the IBM&reg; Aspera Connect client application and follow the installation wizard.
 
    ![](assets/aspera-download-1.png)
 
@@ -174,20 +170,20 @@ On successful completion of the download, a dialog box shows the location where 
 
 ## Using file accelerator on Microsoft&reg; Edge browser {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft&reg; Edge runs in Enhanced Protected Mode (EPM) preventing communication with the Aspera Connect server, while on same private network or with a Trusted Site. Therefore, a pop- up shows up every time a connection with the server is being established.
+Microsoft&reg; Edge runs in Enhanced Protected Mode (EPM) preventing communication with the Aspera Connect server, while on the same private network or with a Trusted Site. Therefore, a pop- up shows up every time a connection with the server is being established.
 
 ![](assets/switchapps-msedge.png)
 
-To use accelerated download functionality on Microsoft&reg; Edge, remove the Brand Portal site from the trusted site list.
+To use accelerated download functionality on Microsoft&reg; Edge, remove the Brand Portal site from the Trusted Site list.
 
 1. Open the Control Panel (**[!UICONTROL Window key + X]**, then select **[!UICONTROL Control Panel]**).
 1. Go to **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Click the **[!UICONTROL Security]** tab.
 1. Click the **[!UICONTROL Trusted sites zone]**, then click **[!UICONTROL Sites]**.
-1. Remove Brand Portal site from the list.
+1. Remove the Brand Portal site from the list.
 
 ## Aspera Connect client Preferences {#aspera-connect-client-preferences}
 
-There are a few useful preferences which can be set in IBM&reg; Aspera Connect Client preference by right-clicking the icon and selecting **[!UICONTROL Preferences]**.
+There are a few useful preferences that can be set in IBM&reg; Aspera Connect client preference by right-clicking the icon and selecting **[!UICONTROL Preferences]**.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -195,7 +191,7 @@ You can set the default download location.
 
 ![](assets/aspera-preferences.png)
 
-Also, the Aspera Connect client can be marked to automatically start on system startup so that the connect client is running and available for the download to begin faster.
+Also, the Aspera Connect client can be marked so that it automatically starts on system startup. And, the Connect client runs and is available for the download to begin faster.
 
 ![](assets/aspera-automaticallylaunch.png) 
 
@@ -207,7 +203,7 @@ If download acceleration is not working for you, try the following suggestions:
 
    If ports are not OK, then reach out to your network team and ensure that Ports 33001 (both TCP & UDP) are not blocked in the firewall.
 
-1. If the ports are OK, then check if your network is not slow, by measuring the available bandwidth using [https://www.speedtest.net/](https://www.speedtest.net/).
+1. If the ports are OK, then check if your network is not slow by measuring the available bandwidth using [https://www.speedtest.net/](https://www.speedtest.net/).
 
    If the bandwidth is a few (1-10 Mbps) or in Kbps, then use Aspera Preferences and try to limit the bandwidth equal to the available bandwidth.
 

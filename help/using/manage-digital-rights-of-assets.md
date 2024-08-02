@@ -22,7 +22,7 @@ Asset expiration is an effective way of controlling the usage of approved assets
 
 In Brand Portal, Administrators can view, download, and add expired assets to collections. However, Editors and Viewers can only view and add expired assets to collections.
 
-Administrators can publish expired assets from AEM Assets to Brand Portal. However, expired assets cannot be shared by way of a link from Brand Portal. If you select any expired asset from a folder containing both expired and non-expired assets, the **[!UICONTROL Share Link]** action is not available. But, if you select a folder that contains expired and non-expired assets, the [!UICONTROL Share] and **[!UICONTROL Share Link]** actions are available.
+Administrators can publish expired assets from AEM Assets to Brand Portal. However, expired assets cannot be shared using a link from Brand Portal. If you select any expired asset from a folder containing both expired and non-expired assets, the **[!UICONTROL Share Link]** action is not available. But, if you select a folder that contains expired and non-expired assets, the [!UICONTROL Share] and **[!UICONTROL Share Link]** actions are available.
 
 >[!NOTE]
 >

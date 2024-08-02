@@ -64,7 +64,7 @@ Sign in to an AEM Author instance with administrative privileges, and access the
 
 ## Search Promote {#search-promote}
 
-AEM Assets Brand Portal allows you to make specific assets come as the top results for searches based on a keyword tag.
+AEM Assets Brand Portal lets you make specific assets come as the top results for searches based on a keyword tag.
 
 To elevate an asset for a search keyword, follow these steps:
 

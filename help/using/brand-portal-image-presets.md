@@ -32,7 +32,7 @@ The Experience Manager Assets administrators can create image presets that appea
 >
 >If the Experience Manager Assets Author instance is running in **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in the Experience Manager Assets repository. 
 >
->Whereas if Experience Manager Assets author instance is running in **Dynamic Media Scene7 mode**, then Pyramid TIFF renditions of image assets exist on the Scene7 server.
+>However, if an Experience Manager Assets author instance is running in **Dynamic Media Scene7 mode**, then Pyramid TIFF renditions of image assets exist on the Scene7 server.
 >
 >When such assets are published to Brand Portal, image presets are applied and dynamic renditions are displayed.
 

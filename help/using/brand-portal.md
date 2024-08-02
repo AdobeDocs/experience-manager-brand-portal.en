@@ -1,27 +1,23 @@
 ---
 title: Overview of Experience Manager Assets Brand Portal
-seo-title: Overview of Experience Manager Assets Brand Portal
-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
-seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
-uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
+description: Learn how Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
-discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 ---
 # Overview of Experience Manager Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
-As a marketer, you sometimes need to collaborate with channel partners and internal business users to quickly create, manage, and deliver relevant digital content to customers. Timely delivery of relevant content across the entire customer journey is critical to driving greater demand, conversion, engagement, and customer loyalty.
+As a marketer, you sometimes need to collaborate with channel partners and internal business users to create, manage, and quickly deliver relevant digital content to customers. Timely delivery of relevant content across the entire customer journey is critical to driving greater demand, conversion, engagement, and customer loyalty.
 
-However, it is a challenge to develop solutions that support efficient and secure sharing of approved brand logos, guidelines, campaign assets, or product shots with extended internal teams, partners, and resellers.
+However, developing solutions that support efficient and secure sharing of such things as approved brand logos, campaign assets, or product shots with teams, partners, and resellers are challenging. Ensuring both efficiency and security in this process requires careful planning and execution.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** focuses on the marketer's need to effectively collaborate with the globally distributed Brand Portal users by providing asset distribution and asset contribution capabilities.
+**Adobe Experience Manager (AEM) Assets Brand Portal** focuses on the marketer's need to collaborate effectively with the globally distributed Brand Portal users by providing asset distribution and asset contribution capabilities.
 
-Asset distribution allows you to easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. Whereas, Asset contribution enables the Brand Portal users with the ability to upload assets to Brand Portal and publish to Experience Manager Assets, without needing access to the author environment. The contribution feature is called as **Assets Sourcing in Brand Portal**. And together, it improves the overall Brand Portal experience of asset distribution and contribution from the Brand Portal users (external agencies/teams), accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access.
+Asset distribution lets you acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. However, Asset contribution enables the Brand Portal users with the ability to upload assets to Brand Portal and publish to Experience Manager Assets, without needing access to the author environment. The contribution feature is called as **Assets Sourcing in Brand Portal**. And together, it improves the overall Brand Portal experience of asset distribution and contribution from the Brand Portal users (external agencies/teams), accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access.
 See, [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
 
-The browser-based portal environment enables you to easily upload, browse, search, preview, and export assets in approved formats.
+The browser-based portal environment enables you to upload, browse, search, preview, and export assets easily in approved formats.
 
 ## Configure Experience Manager Assets with Brand Portal {#configure-brand-portal}
 
@@ -33,7 +29,7 @@ Configuring Adobe Experience Manager Assets with Brand Portal enables asset publ
 
 Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.  
 
-Whereas, Experience Manager Assets (on premise and managed service) is manually configured with Brand Portal using Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of the Brand Portal tenant. 
+However, Experience Manager Assets (on premise and managed service) is manually configured with Brand Portal using Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of the Brand Portal tenant. 
 
 For more information, see [configuring Experience Manager Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -69,9 +65,9 @@ The following table lists the tasks that users in these roles can perform:
 
 ### Guest user {#guest-user}
 
-Experience Manager Assets Brand Portal allows [guest access](#request-access-to-brand-portal) to Brand Portal. A guest user does not need credentials to enter the portal and has access to the public folders and collections. As a guest user, you can browse through asset details and have full asset view of members of public folders and collections. You can search, download, and add public assets to [!UICONTROL Lightbox] collection.
+Experience Manager Assets Brand Portal allows [guest access](#request-access-to-brand-portal) to Brand Portal. A guest user does not need credentials to enter the portal and has access to the public folders and collections. As a guest user, you can browse through asset details and have a full asset view of members of public folders and collections. You can search, download, and add public assets to the [!UICONTROL Lightbox] collection.
 
-However, guest session restricts you from creating collections and saved searches, and share them further. Users in a guest session cannot access folder and collections settings, and cannot share assets as link. Here is a list of tasks that a guest user can perform:
+However, the guest session restricts you from creating collections and saved searches, and shares them further. Users in a guest session cannot access folder and collections settings, and cannot share assets as link. Here is a list of tasks that a guest user can perform:
 
 * [Browse and access public assets](browse-assets-brand-portal.md)
 
@@ -81,11 +77,11 @@ However, guest session restricts you from creating collections and saved searche
 
 * [Add assets to [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
-For more information, see [guest access to Brand Portal](../using/guest-access.md). 
+For more information, go to [Guest Access to Brand Portal](../using/guest-access.md). 
 
 ### Viewer {#viewer}
 
-Brand Portal user defined in [!DNL Admin Console] who has access to Brand Portal with the role of Viewer. A user with this role can login to Brand Portal and access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
+Brand Portal user defined in the [!DNL Admin Console] who has access to Brand Portal with the role of Viewer. A user with this role can log in to Brand Portal and access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
 * [Browse assets](browse-assets-brand-portal.md)
 
@@ -107,45 +103,38 @@ Apart from the tasks that a Viewer can perform, an Editor can perform the follow
 
 ### Administrator {#administrator}
 
-An administrator includes a user marked as system administrator or Brand Portal product administrator in [!UICONTROL Admin Console]. An administrator can add and remove system administrators and users, define presets, send email to users, and view portal usage and storage reports.
+An administrator includes a user marked as system administrator or Brand Portal product administrator in the [!UICONTROL Admin Console]. An administrator can add and remove system administrators and users, define presets, send email to users, and view portal usage and storage reports.
 
 >[!NOTE]
 >
->In Brand Portal, a user marked with the role of support administrator in [!UICONTROL Admin Console] has the same privileges as of a system administrator.
+>In Brand Portal, a user marked with the role of support administrator in the [!UICONTROL Admin Console] has the same privileges as of a system administrator.
 
-An administrator can perform all tasks that an Editor can perform. Following are the additional tasks that an administrator can perform:
+An administrator can perform all tasks that an Editor can perform. The following are the additional tasks that an administrator can perform:
 
 * [Manage users, groups, and user roles](brand-portal-adding-users.md)
-
 * [Customize wallpaper, page headers, and emails](brand-portal-branding.md)
-
 * [Use custom search facets](brand-portal-search-facets.md)
-
-* [Use the metadata schema form](brand-portal-metadata-schemas.md)
-
+* [Use metadata schema](brand-portal-metadata-schemas.md)
 * [Apply image presets or dynamic renditions](brand-portal-image-presets.md)
-
 * [Work with reports](brand-portal-reports.md)
 
 In addition to the above tasks, an Author in AEM Assets can perform the following tasks:
 
 * [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
-
-* [Publish folders to Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-
-* [Publish collections to Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+* [Publish folders to Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Publish collections to Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Alternate alias for Brand Portal url {#tenant-alias-for-portal-url}
 
-Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.  
-If tenant name is greater than 32 characters then tenant alias needs to be created.
+Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for each existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.  
+If the tenant name is greater than 32 characters, then a tenant alias needs to be created.
 Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. For example, an organization with existing domain `geomettrix.brand-portal.adobe.com` can get `geomettrixinc.brand-portal.adobe.com` created on request.
 
-However, AEM Author instance can be [configured](../using/configure-aem-assets-with-brand-portal.md) only with the tenant id URL and not with tenant alias (alternate) URL.
+However, the AEM Author instance can be [configured](../using/configure-aem-assets-with-brand-portal.md) only with the tenant id URL and not with the tenant alias (alternate) URL.
 
 >[!NOTE]
 >
->To get an alias for tenant name in existing portal URL, organizations need to contact Customer support with a new tenant alias creation request. This request is processed by first checking if the alias is available and then creating the alias.
+>To get an alias for the tenant name in an existing portal URL, organizations need to contact Customer Support with a new tenant alias creation request. First, check if the alias is available, then create the alias to process this request.
 >
 >To replace the old or delete the old alias, the same process needs to be followed.
 
@@ -170,9 +159,9 @@ To request access, do the following:
     **Scenario 1**
 
     1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **[!UICONTROL Sign In]**.
-    The [!UICONTROL Sign in] page opens.
+    The [!UICONTROL Sign-in] page opens.
 
-    1. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign in]**.
+    1. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign-in]**.
 
        ![Adobe sign in](assets/bplogin_request_access_3.png)
 
@@ -181,9 +170,9 @@ To request access, do the following:
     **Scenario 2**
 
     1. If you do not have an [!UICONTROL Adobe ID], to create one, click **[!UICONTROL Get an Adobe ID]** from the [!UICONTROL Request Access] page.
-    The [!UICONTROL Sign in] page opens.
+    The [!UICONTROL Sign-in] page opens.
     1. Click **[!UICONTROL Get an Adobe ID]**.
-    The [!UICONTROL Sign up] page opens.
+    The [!UICONTROL Sign-up] page opens.
     1. Enter your first and last name, email ID, and password. 
     1. Select **[!UICONTROL Sign up]**.
     
@@ -201,14 +190,14 @@ Brand Portal product administrators receive access requests in their Brand Porta
 
 ![Access requested notification](assets/bplogin_request_access_7.png)
 
-To grant access, product administrators need to click the relevant notification in Brand Portal notification area and then click **[!UICONTROL Grant Access]**.
-Alternatively, product administrators can follow the link provided in the access request email to visit Adobe [!UICONTROL Admin Console] and add the user to the relevant product configuration.
+To grant access, product administrators need to click the relevant notification in the Brand Portal notification area and then click **[!UICONTROL Grant Access]**.
+Alternatively, product administrators can follow the link provided in the access request email to visit the Adobe [!UICONTROL Admin Console] and add the user to the relevant product configuration.
 
-You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
+You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use the Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in the [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
 ## Brand Portal languages {#brand-portal-language}
 
-You can change Brand Portal language from Adobe [!UICONTROL Experience Cloud Settings].
+You can change the Brand Portal language from Adobe [!UICONTROL Experience Cloud Settings].
 
 ![Access requested notification](assets/BPLang.png)
 
@@ -218,7 +207,7 @@ To change the language:
 
    ![Edit Profile](assets/EditBPProfile.png)
 
-1. On [!UICONTROL Experience Cloud Settings] page, select a language from the [!UICONTROL Language] drop-down menu.
+1. On the [!UICONTROL Experience Cloud Settings] page, select a language from the [!UICONTROL Language] drop-down menu.
 
 ## Brand Portal maintenance notification {#brand-portal-maintenance-notification}
 

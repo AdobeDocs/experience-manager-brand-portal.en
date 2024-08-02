@@ -1,23 +1,19 @@
 ---
 title: Search assets on Brand Portal
-seo-title: Asset searching and saved search on Experience Manager Assets Brand Portal
-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
-seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
-uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
+description: Brand Portal search capability lets you quickly search for relevant assets using Omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 contentOwner: bdhar
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
-discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 ---
 # Search assets on Brand Portal {#search-assets-on-brand-portal}
 
-Brand Portal search capability allows you to quickly search relevant assets using omnisearch, and facet search that uses filters to help you further narrow down your search. You can search assets at files or folder level and save your search results as smart collections. 
+Brand Portal search capability lets you quickly search relevant assets using Omnisearch, and facet search that uses filters to help you further narrow down your search. You can search assets at files or folder level and save your search results as smart collections. 
 
 >[!NOTE]
 >
->Brand Portal does not support Collection search using omnisearch.
+>Brand Portal does not support Collection search using Omnisearch.
 >
 >However, you can use [search filters to get the list of relevant collections](#search-collection). 
 
@@ -25,7 +21,7 @@ Brand Portal search capability allows you to quickly search relevant assets usin
 
 To search for assets on Brand Portal:
 
-1. From the toolbar, click the **[!UICONTROL Search]** icon, or press the "**[!UICONTROL /]**" key to launch Omnisearch.
+1. From the toolbar, click the **[!UICONTROL Search]** icon, or press the **[!UICONTROL /]** (forward slash) key to launch Omnisearch.
 
    ![](assets/omnisearchicon-1.png)
 
@@ -35,26 +31,27 @@ To search for assets on Brand Portal:
 
    >[!NOTE]
    >
-   >* At least 3 characters are required in omnisearch for search suggestions to appear.
-   >* When you search for `mountain biking`, omnisearch returns all assets in the search results that have both `mountain` and `biking` available in the metadata fields. For example, `mountain` in the `Title` field and `biking` in the `Description` field. Both the terms must be available in the metadata fields to display in the search results. However, omnisearch returns the asset in the search results even if only one of the two terms is available in Smart Tags metadata field. For example, if an asset contains `mountain` as one of the Smart Tags and does not contain `biking` in any other metadata field and you search for `mountain biking`, omnisearch still returns the asset in the search results. 
+   >* At least 3 characters are required in Omnisearch for search suggestions to appear.
+   >* When you search for `mountain biking`, Omnisearch returns all assets in the search results that have both `mountain` and `biking` available in the metadata fields. For example, `mountain` in the `Title` field and `biking` in the `Description` field. Both the terms must be available in the metadata fields to display in the search results. However, Omnisearch returns the asset in the search results even if only one of the two terms is available in the Smart Tags metadata field. For example, suppose that an asset has `mountain` as a Smart Tag but lacks `biking` in any other metadata field. Then you search for `mountain biking`. Omnisearch still returns the asset in the search results. This workflow ensures that assets with relevant tags are not missed.
 
-1. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
+1. Select from the related suggestions that appear in the drop-down list to access relevant assets quickly.
 
    ![](assets/assets-search-result.png)
 
-   *Asset search using omnisearch*
+   *Asset search using Omnisearch*
 
-To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
+To know more about search behavior with smart tagged assets, go to [understand search results and behavior](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/search-assets).
 
 ## Search using facets in Filters panel {#search-using-facets-in-filters-panel}
 
-Search facets in the Filters panel add granularity to your search experience and make the search functionality efficient. Search facets use multiple dimensions (predicates) that enable you to perform intricate searches. You can easily drill down to the desired level of detail for a more focused search.
+Search facets in the Filters panel add granularity to your search experience and make the search functionality more efficient. Search facets use multiple dimensions (predicates) that enable you to perform intricate searches. You can easily drill down to the desired level of detail for a more focused search.
 
-For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. You can reduce the scope of search further by specifying the MIME type for the image in the File Type search facet. Similarly, when searching for documents, you can specify the format, for example, PDF or MS® Word format.
+For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. You can further narrow the search scope by specifying the image's MIME type in the File Type search facet. Similarly, when searching for documents, you can specify the format, for example, PDF or MS&reg; Word format.
 
 ![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
 
-The **[!UICONTROL Filters]** panel includes a few standard facets, such as- **[!UICONTROL Path Browser]**, **[!UICONTROL File Type]**, **[!UICONTROL File Size]**, **[!UICONTROL Status]**, and **[!UICONTROL Orientation]**. However, you can [add custom search facets](../using/brand-portal-search-facets.md) or remove specific search facets from the **[!UICONTROL Filters]** panel by adding or removing predicates in the underlying Search Form. See the list of the available and usable [search predicates on Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+The **[!UICONTROL Filters]** panel includes a few standard facets, such as- **[!UICONTROL Path Browser]**, **[!UICONTROL File Type]**, **[!UICONTROL File Size]**, **[!UICONTROL Status]**, and **[!UICONTROL Orientation]**. 
+However, you can [add custom search facets](../using/brand-portal-search-facets.md) or remove specific ones from the **[!UICONTROL Filters]** panel. Just edit the predicates in the underlying Search Form. See the list of the available and usable [search predicates on Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
 To apply filters to your search, using the available [search facets](../using/brand-portal-search-facets.md):
 
@@ -65,14 +62,14 @@ To apply filters to your search, using the available [search facets](../using/br
 1. From the **[!UICONTROL Filters]** panel on the left, select the appropriate options to apply the relevant filters.
    For example, use the following standard filters:
 
-    * **[!UICONTROL Path Browser]** to search assets in a specific directory. The default search path of the predicate for Path Browser is `/content/dam/mac/<tenant-id>/`, which can be configured by editing the default search form.
+    * **[!UICONTROL Path Browser]** to search assets in a specific directory. The default search path of the predicate for Path Browser is `/content/dam/mac/<tenant-id>/`, which can be configured by editing the default Search Form.
 
    >[!NOTE]
    >
-   >To non-admin users, [!UICONTROL Path Browser] in [!UICONTROL Filter] panel shows only the content structure of the folders (and their ancestor folders) shared with them.  
+   >To non-admin users, the [!UICONTROL Path Browser] in the [!UICONTROL Filter] panel shows only the content structure of the folders (and their ancestor folders) shared with them.  
    >To admin users, Path Browser allows navigating to any folder in Brand Portal.
 
-    * **[!UICONTROL File Type]** to specify the type (image, document, multimedia, archive) of asset file you are looking for. Further, you can narrow down the scope of your search, for example, specify the MIME type (Tiff, Bitmap, GIMP Images) for image or format (PDF or MS® Word) for the documents.
+    * **[!UICONTROL File Type]** to specify the type (image, document, multimedia, archive) of asset file you are looking for. Further, you can narrow down the scope of your search, for example, specify the MIME type (Tiff, Bitmap, GIMP Images) for image or format (PDF or MS&reg; Word) for the documents.
     * **[!UICONTROL File Size]** to search for assets based on their size. You can specify the lower and upper limits for the size range to narrow down your search and specify the unit of measure to search.
     * **[!UICONTROL Status]** to search for assets based on asset statuses, such as Approval (Approved, Changes Requested, Rejected, Pending) and Expiration.
     * **[!UICONTROL Average Rating]** to search for assets based on the rating of the assets.
@@ -82,35 +79,35 @@ To apply filters to your search, using the available [search facets](../using/br
 
    You can use [custom search facets](../using/brand-portal-search-facets.md) in the Filters panel by editing the underlying Search Form.
 
-    * **[!UICONTROL Property Predicate]** if used in the search form, lets you search for assets that match a metadata property to which the predicate is mapped.  
-      For example, if Property Predicate is mapped to [!UICONTROL `jcr:content /metadata/dc:title`], you can search assets based on their title.  
+    * **[!UICONTROL Property Predicate]** if used in the Search Form, lets you search for assets that match a metadata property to which the predicate is mapped.  
+      For example, if Property Predicate is mapped to `jcr:content/metadata/dc:title`, you can search assets based on their title.  
       The [!UICONTROL Property Predicate] supports text searches for:  
 
       **Partial phrases**
-      To allow the asset search using partial phrases in property predicate, enable the **[!UICONTROL Partial Search]** checkbox in Search Form. This allows you to search for the desired assets even if you do not specify the exact words/ phrases used in the asset metadata.
+      To allow the asset search using partial phrases in Property Predicate, enable the **[!UICONTROL Partial Search]** checkbox in Search Form. This method lets you search for the desired assets even if you do not specify the exact words or phrases used in the asset metadata.
 
       >[!NOTE]
       >
       > Brand Portal supports the following fields for Partial Search:
-      >* jcr:content/metadata/dc:title
-      >* jcr:content/jcr:title
-      >* jcr:content/metadata/dam:search_promote
-      >* jcr:content/metadata/dc:format
+      >
+      >* `jcr:content/metadata/dc:title`
+      >* `jcr:content/jcr:title`
+      >* `jcr:content/metadata/dc:format`
 
       You can:
-        * Specify a word occurring in your searched phrase in the facet in Filters panel. For example, if you search for the term **climb** (and Property Predicate is mapped to [!UICONTROL `dc:title`] property), then all the assets with the word **climb** in their title phrase are returned.
-        * Specify a part of the word, occurring in your searched phrase, along with wildcard character (&#42;) to fill the gaps.
+        * Specify a word occurring in your searched phrase in the facet in the Filters panel. For example, if you search for the term **climb** (and Property Predicate is mapped to the `dc:title` property), then all the assets with the word **climb** in their title phrase are returned.
+        * Specify a part of the word occurring in your searched phrase, along with a wildcard character (&#42;) to fill the gaps.
           For example, searching for:
           * **climb&#42;** returns all the assets having words beginning with the characters "climb" in their title phrase.
           * **&#42;climb** returns all the assets having words ending with characters "climb" in their title phrase.
           * **&#42;climb&#42;** returns all the assets having words comprising the characters "climb" in their title phrase.  
       
       **Non-case sensitive text**
-      To allow non-case sensitive search in property predicate,enable the **[!UICONTROL Ignore Case]** checkbox in Search Form. By default, the text search on property predicate is case-sensitive.
+      You can allow non-case sensitive search in Property Predicate. Just enable the **[!UICONTROL Ignore Case]** checkbox in the Search Form. By default, the text search in Property Predicate is case-sensitive.
 
    >[!NOTE]
    >
-   >On selecting **[!UICONTROL Partial Search]** checkbox, **[!UICONTROL Ignore Case]** is selected by default.
+   >On selecting the **[!UICONTROL Partial Search]** checkbox, **[!UICONTROL Ignore Case]** is selected by default.
 
    ![](assets/wildcard-prop-1.png)
 
@@ -124,17 +121,17 @@ To apply filters to your search, using the available [search facets](../using/br
 
 ## Save your searches as smart collection {#save-your-searches-as-smart-collection}
 
-You can save the search settings as a smart collection to be able to quickly repeat the same search without having to redo the same settings later. However, you cannot apply search filters in a collection.    
+You can save the search settings as a smart collection to be able to repeat the same search quickly without having to redo the same settings later. However, you cannot apply search filters in a collection.    
 
 To save the search settings as a smart collection:
 
-1. Tap/ click **[!UICONTROL Save Smart Collection]** and provide a name for the smart collection.
+1. Click **[!UICONTROL Save Smart Collection]** and provide a name for the smart collection.
 
    To make the smart collection accessible to all users, select **[!UICONTROL Public]**. A message confirms that the smart collection was created and added to the list of your saved searches.
 
    >[!NOTE]
    >
-   >Non-admin users can be restricted from making smart collections public, to avoid having a huge number of public smart collections created by non-admin users on organization's Brand Portal. Organizations can disable the **[!UICONTROL Allow public smart collections creation]** configuration from **[!UICONTROL General]** settings available in admin tools panel.
+   >You can restrict non-admin users from making smart collections public to avoid having a huge number of public smart collections created by non-admin users on the organization's Brand Portal. Organizations can disable the **[!UICONTROL Allow public smart collections creation]** configuration from the **[!UICONTROL General]** settings available in the admin tools panel.
 
    ![](assets/save_smartcollectionui.png)
 

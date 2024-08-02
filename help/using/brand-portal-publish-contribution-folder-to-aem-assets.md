@@ -1,19 +1,15 @@
 ---
 title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
-seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
 description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
-seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
-uuid: 
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid:
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 ---
 # Publish contribution folder to Experience Manager Assets {#using-asset-souring-in-bp}
 
-Brand Portal users with appropriate permissions can upload multiple assets, or folders containing multiple assets, to the contribution folder. However, Brand Portal users are only able to upload assets to the **NEW** folder. The **SHARED** folder is meant for the distribution of baseline assets (reference content) which can be used by the Brand Portal users while creating new assets for contribution.
+Brand Portal users with appropriate permissions can upload multiple assets, or folders containing multiple assets, to the contribution folder. However, Brand Portal users are only able to upload assets to the **NEW** folder. The **SHARED** folder is meant for the distribution of baseline assets (reference content) which are used by the Brand Portal users while creating new assets for contribution.
 
 Brand Portal user having permission to access the contribution folder can perform the following activities:
 
@@ -23,19 +19,19 @@ Brand Portal user having permission to access the contribution folder can perfor
 
 ## Download asset requirements {#download-asset-requirements}
 
-Brand Portal users automatically receive email/pulse notifications whenever a contribution folder is shared by the Experience Manager Assets user, allowing them to download the brief (asset requirement) document, as well as download the baseline assets (reference content), from the **SHARED** folder to ensure they understand the asset requirements.
+Brand Portal users automatically receive email and pulse notifications when an Experience Manager Assets user shares a contribution folder. This workflow lets them download the brief (asset requirement) document and baseline assets (reference content) from the **SHARED** folder to understand the asset requirements.
 
 Brand Portal user performs the following activities to download asset requirements:
 
-* **Download brief**: Download the brief (asset requirement document) attached to the contribution folder which contains asset related information like type of assets, purpose, supported formats, maximum asset size, etc.
-* **Download baseline assets**: Download the baseline assets which can be used to understand the types of assets required. Brand Portal users can use these assets as reference to create new assets for contribution.
+* **Download brief** - Download the brief (asset requirement document) attached to the contribution folder. It contains asset-related information such as the type of assets, purpose, supported formats, maximum asset size, and more.
+* **Download baseline assets** - Download the baseline assets, which can be used to understand the types of assets required. Brand Portal users can use these assets as reference to create new assets for contribution.
 
-Brand Portal dashboard reflects all the existing folders permitted to the Brand Portal user along with the newly shared contribution folder. In this example, the Brand Portal user only has access to the newly created contribution folder, no other existing folder is shared with the user.
+Brand Portal dashboard reflects all the existing folders permitted to the Brand Portal user along with the newly shared contribution folder. In this example, the Brand Portal user only has access to the newly created contribution folder. No other existing folder is shared with the user.
 
 **To download asset requirements:**
 
 1. Log in to your Brand Portal instance.
-1. Select contribution folder from the Brand Portal dashboard.
+1. Select a contribution folder from the Brand Portal dashboard.
 1. Click **[!UICONTROL Properties]**. The Property window containing the contribution folder details opens.
 
    ![](assets/properties.png)
@@ -47,16 +43,15 @@ Brand Portal dashboard reflects all the existing folders permitted to the Brand 
    ![](assets/download.png)
 
 1. Go back to the Brand Portal dashboard.
-1. Click to open the contribution folder, you can see two sub folders–**[!UICONTROL SHARED]** and **[!UICONTROL NEW]** within the contribution folder. The SHARED folder contains all the baseline assets (reference content) shared by the administrators. 
+1. Click the contribution folder to open it. You can see two sub folders: **[!UICONTROL SHARED]** and **[!UICONTROL NEW]** within the contribution folder. The SHARED folder contains all the baseline assets (reference content) shared by the administrators. 
 1. You can download the **[!UICONTROL SHARED]** folder containing all the baseline assets on your local machine. 
-Or, you can to open the **[!UICONTROL SHARED]** folder and click the **Download** icon to download individual files/folders.
+Or, you can open the **[!UICONTROL SHARED]** folder and click the **Download** icon to download individual files/folders.
 
    ![](assets/download.png)
    
    ![](assets/download-asset-requirement5.png)
 
-Go through the brief (asset requirement document) and refer to the baseline assets to understand the asset requirements. Now, you can create new assets for contribution and upload them to the contribution folder..
-
+Go through the brief (asset requirement document) and refer to the baseline assets to understand the asset requirements. Now, you can create new assets for contribution and upload them to the contribution folder.
 
 ## Upload assets to contribution folder {#upload-new-assets-to-contribution-folder}
 
@@ -64,15 +59,15 @@ After going through the asset requirements, the Brand Portal users can create ne
 
 >[!NOTE]
 >
->The Brand Portal users can upload assets (maximum of **2**GB per file size) to the NEW folder. 
+>The Brand Portal users can upload assets (a maximum of two gigabytes per file size) to the NEW folder. 
 >
->The maximum upload limit for any Brand Portal tenant is **10**GB which is cumulatively applied to all the contribution folders.
+>The maximum upload limit for any Brand Portal tenant is ten gigabytes, which is cumulatively applied to all the contribution folders.
 >
->The assets uploaded to Brand Portal are not processed for renditions and does not contain previews. 
+>The assets uploaded to Brand Portal are not processed for renditions and do not contain previews. 
 
 >[!NOTE]
 >
->It is recommended to release the upload space after publishing the contribution folder to Experience Manager Assets so that it is available to the other Brand Portal users for contribution. 
+>Adobe recommends that you release the upload space after publishing the contribution folder to Experience Manager Assets so that it is available to the other Brand Portal users for contribution. 
 >
 >If there is a need to extend the upload limit of your Brand Portal tenant beyond **10**GB, contact Customer Support specifying the requirement.
 
@@ -103,13 +98,13 @@ After uploading all the assets or folders to the NEW folder, publish the contrib
 
 Brand Portal users can publish the contribution folder to Experience Manager Assets without needing access to the Experience Manager author instance.
 
-Ensure that you have gone through the asset requirements and upload the newly created assets in **NEW** folder within the contribution folder. 
+Ensure that you have gone through the asset requirements and upload the newly created assets in the **NEW** folder within the contribution folder. 
 
-**To publish contribution folder:**
+**To publish a contribution folder:**
 
 1. Log in to your Brand Portal instance.
 
-1. Select contribution folder from the Brand Portal dashboard.
+1. Select a contribution folder from the Brand Portal dashboard.
 1. Click **[!UICONTROL Publish to AEM]**. 
 
    ![](assets/export.png)
@@ -122,13 +117,13 @@ An email/pulse notification is sent to the Brand Portal user and administrators 
 
 1. **Complete** - A notification is sent to the Brand Portal user and Brand Portal administrators when the contribution folder is successfully published to Experience Manager Assets.
 
-After publishing the newly created assets to Experience Manager Assets, the Brand Portal users can delete them from the NEW folder. Whereas, the Brand Portal administrator can delete the assets from both NEW and SHARED folder. 
+After publishing the newly created assets to Experience Manager Assets, the Brand Portal users can delete them from the NEW folder. However, the Brand Portal administrator can delete the assets from both NEW and SHARED folder. 
 
 Once the objective of creating the contribution folder is achieved, the Brand Portal administrator can delete the contribution folder to release the upload space for other users. 
 
 ## Publishing job status {#publishing-job-status}
 
-There are two reports which the administrators can utilize to view the status of the asset contribution folders published from Brand Portal to Experience Manager Assets. 
+Administrators can use two reports to view the status of asset contribution folders published from Brand Portal to Experience Manager Assets.
 
 * In Brand Portal, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. This report reflects the status of all the publishing jobs at different stages of the publishing workflow.  
 
@@ -165,7 +160,7 @@ Brand Portal now executes automatic jobs every twelve hours to scan all Contribu
 
    ![Deletion Report](assets/deletion-reports.png)
 
-You can also drill-down further to view the details of each asset included in a delete job. Details such as asset title, size, author, delete status, and deletion time are included in the report.
+You can also drill down further to view the details of each asset included in a delete job. Details such as asset title, size, author, delete status, and deletion time are included in the report.
 
 ![Deletion Report Detailed](assets/deletion-reports-detailed.png)
 
@@ -196,7 +191,7 @@ To view and download reports for a delete job:
 
 ### Delete a report
 
-Brand Portal also allows you to select one or multiple reports and delete them manually.
+Brand Portal also lets you select one or multiple reports and delete them manually.
 
 To delete a report:
 

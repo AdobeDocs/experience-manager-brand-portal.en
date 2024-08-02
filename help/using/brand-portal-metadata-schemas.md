@@ -1,13 +1,9 @@
 ---
 title: Use the metadata schema form
-seo-title: Use the metadata schema form
 description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
-seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
-uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
 ---
@@ -39,7 +35,7 @@ To create a new metadata schema form, do the following:
 
 ## Edit a metadata schema form {#edit-a-metadata-schema-form}
 
-You can edit a newly added or existing metadata schema form. The metadata schema form contains content derived from its parent, including tabs and form items within tabs. You can map or configure these form items to a field within a metadata node.
+Any added or existing metadata schema form can be edited. The metadata schema form contains content derived from its parent, including tabs and form items within tabs. You can map or configure these form items to a field within a metadata node.
 
 You can add new tabs or form items to the metadata schema form. The derived tabs and form items (from the parent) are in the locked state. You cannot alter them at the child level.
 
@@ -60,9 +56,9 @@ To edit a metadata schema form, do the following:
 
 1. From the toolbar at the top, click **[!UICONTROL Edit]**.
 
-   The **[!UICONTROL Metadata Schema Editor]** page opens with the **[!UICONTROL Basic]** tab open on the left and the **[!UICONTROL Build Form]** tab open on the right.
+   The **[!UICONTROL Metadata Schema Editor]** page opens with the **[!UICONTROL Basic]** tab open on the left. On the right, the **[!UICONTROL Build Form]** tab is opened.
 
-1. In the **[!UICONTROL Metadata Schema Editor]** page, customize the **[!UICONTROL Properties]** page of the asset by dragging one or more components from a list of component types in the **[!UICONTROL Build Form]** tab to the **[!UICONTROL Basic]** tab.
+1. In the **[!UICONTROL Metadata Schema Editor]** page, customize the **[!UICONTROL Properties]** page of the asset. Just drag one or more components from a list of component types in the **[!UICONTROL Build Form]** tab. Drag them to the **[!UICONTROL Basic]** tab.
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -80,10 +76,10 @@ The **[!UICONTROL Build Form]** tab lists items that you can use in your schema 
 | **[!UICONTROL Number]**              |  Add a number component.                                                                                                                                                                                                                                                                   |
 | **[!UICONTROL Date]**                |  Add a date component.                                                                                                                                                                                                                                                                     |
 | **[!UICONTROL Dropdown]**            |  Add a dropdown list.                                                                                                                                                                                                                                                                      |
-| **[!UICONTROL Standard Tags]**       |  Add a tag. **Note:** Administrators might need to change the path value, for example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from Experience Manager Assets, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Standard Tags]**       |  Add a tag. Administrators may need to change the path value. For example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from Experience Manager Assets, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
 | **[!UICONTROL Smart Tags]**          |  Auto-detected tags if you have purchased and configured the Experience Manager Assets smart tags add-on.                                                                                                                                                                                                        |
 | **[!UICONTROL Hidden Field]**        |  Add a hidden field. It is sent as a POST parameter when the asset is saved.                                                                                                                                                                                                               |
-| **[!UICONTROL Asset Referenced By]** |  Add this component to view list of assets referenced by the asset.                                                                                                                                                                                                                        |
+| **[!UICONTROL Asset Referenced By]** |  Add this component to view a list of assets referenced by the asset.                                                                                                                                                                                                                        |
 | **[!UICONTROL Asset Referencing]**   |  Add to display a list of assets that reference the asset.                                                                                                                                                                                                                                 |
 | **[!UICONTROL Asset Rating]**        |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal.                                                                                                                                                                                                  |
 | **[!UICONTROL Contextual Metadata]** |  Add to control the display of other metadata tabs in the Properties page of assets.                                                                                                                                                                                                       |
@@ -102,9 +98,9 @@ To edit the properties of a metadata component on the form, click the component 
 
 The following are the valid values for this property:
 
--- `./jcr:content/metadata/dc:title`: Stores the value at the asset's metadata node as the property [!UICONTROL `dc:title`].
+-- `./jcr:content/metadata/dc:title`: Stores the value at the asset's metadata node as the property `dc:title`.
 
--- `./jcr:created`: Displays the jcr property at the asset's node. If you configure these properties on view properties, we recommend that you mark them as Disable Edit, because they are protected. Otherwise, the error "Asset(s) failed to modify" occurs when you save the asset's properties.
+-- `./jcr:created`: Displays the jcr property at the asset's node. If you configured these properties on view properties, Adobe recommends that you marked them as Disable Edit, because they are protected. Otherwise, the error "Assets failed to modify" occurs when you save the asset's properties.
 
 * **[!UICONTROL Placeholder]**: Use this property to provide the user any relevant information regarding the metadata property.
 * **[!UICONTROL Required]**: Use this property to mark a metadata property as mandatory on the Properties page.
@@ -125,7 +121,7 @@ The default schema form includes the **[!UICONTROL Basic]** and **[!UICONTROL Ad
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* To add a new tab on a schema form, click **[!UICONTROL +]**. By default, the new tab has the name "Unnamed-1". You can modify the name from the **[!UICONTROL Settings]** tab.
+* To add a new tab on a schema form, click **[!UICONTROL +]**. By default, the new tab has the name "Unnamed-1." You can modify the name from the **[!UICONTROL Settings]** tab.
 
 ![](assets/add-tab-metadata-form.png)
 
@@ -133,7 +129,7 @@ The default schema form includes the **[!UICONTROL Basic]** and **[!UICONTROL Ad
 
 ## Apply a metadata schema to a folder {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal allows you to customize and control the metadata schema so that the **[!UICONTROL Properties]** page of an asset displays only the specific information you choose to reveal. To control the metadata displayed in the **[!UICONTROL Properties]** page, remove the required metadata from the metadata schema form and apply it to the specific folder.
+Brand Portal lets you customize and control the metadata schema so that the **[!UICONTROL Properties]** page of an asset displays only the specific information you choose to reveal. To control the metadata displayed in the **[!UICONTROL Properties]** page, remove the required metadata from the metadata schema form and apply it to the specific folder.
 
 To apply a metadata schema form to a folder, do the following:
 
@@ -147,15 +143,15 @@ To apply a metadata schema form to a folder, do the following:
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-1. From the toolbar at the top, click **[!UICONTROL Apply to Folder(s)]**.
+1. From the toolbar at the top, click **[!UICONTROL Apply to Folders]**.
 
-1. From the **[!UICONTROL Select Folder(s)]** page, navigate to the folder to which you want to apply the **[!UICONTROL clothing]** metadata schema, for example, **[!UICONTROL Gloves]**.
+1. From the **[!UICONTROL Select Folders]** page, navigate to the folder to which you want to apply the **[!UICONTROL clothing]** metadata schema, for example, **[!UICONTROL Gloves]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
 1. Click **[!UICONTROL Apply]** to apply the metadata schema form to the folder.
 
-   The metadata available in the **[!UICONTROL clothing]** metadata schema form is applied to the **[!UICONTROL Gloves]** folder and visible in the **[!UICONTROL Properties]** page of the folder.
+   The metadata available in the **[!UICONTROL clothing]** metadata schema form is applied to the **[!UICONTROL Gloves]** folder and is visible in the **[!UICONTROL Properties]** page of the folder.
 
    ![](assets/folder_metadata_properties.png)
 
@@ -179,7 +175,7 @@ To delete a form, select a form and click the **[!UICONTROL Delete]** icon.
 
 ### Adding new forms for MIME types {#adding-new-forms-for-mime-types}
 
-In addition to the default forms, you can add custom forms for assets of various MIME types, or create a new form under an appropriate form type. For example, to add a new template for the **[!UICONTROL image/png]** subtype, create the form under the "image" forms. The title for the schema form is the subtype name. In this case, the title is "png".
+In addition to the default forms, you can add custom forms for assets of various MIME types, or create a new form under an appropriate form type. For example, to add a new template for the **[!UICONTROL image/png]** subtype, create the form under the "image" forms. The title for the schema form is the subtype name. In this case, the title is "png."
 
 #### Using an existing schema template for various MIME types {#using-an-existing-schema-template-for-various-mime-types}
 
@@ -190,10 +186,10 @@ In this case, create a new node at [!UICONTROL `/etc/dam/metadataeditor/mimetype
 | **Name** |**Type** |**Value** |
 |---|---|---|
 | exposedmimetype |String |image/jpeg |
-| mimetypes |String[] |image/png |
+| mime types |String[] |image/png |
 
 * **exposedmimetype**: Name of the existing form to be mapped 
-* **mimetypes**: List of MIME types that use the form defined in the **exposedmimetype** attribute
+* **mime types**: List of MIME types that use the form defined in the **exposedmimetype** attribute
 
 Brand Portal maps the following MIME types and schema forms:
 
@@ -208,29 +204,29 @@ Brand Portal maps the following MIME types and schema forms:
 | video/quicktime |video/x-quicktime |
 | video/mpeg4 |video/mp4 |
 | video/avi |video/avi, video/msvideo, video/x-msvideo |
-| video/wmv |video/x-ms-wmv |
+| video/wmv |`video/x-ms-wmv` |
 | video/flv |video/x-flv |
 
 The following is a list of default metadata properties:
 
-* jcr:content/metadata/cq:tags
-* jcr:content/metadata/dc:format
-* jcr:content/metadata/dam:status
-* jcr:content/metadata/videoCodec
-* jcr:content/metadata/audioCodec
-* jcr:content/metadata/dc:title
-* jcr:content/metadata/dc:description
-* jcr:content/metadata/xmpMM:InstanceID
-* jcr:content/metadata/xmpMM:DocumentID
-* jcr:content/metadata/dam:sha1
-* jcr:content/metadata/dam:solutionContext
-* jcr:content/metadata/videoBitrate
-* jcr:content/metadata/audioBitrate
-* jcr:content/usages/usedBy
-* jcr:content/jcr:lastModified
-* jcr:content/metadata/prism:expirationDate
-* jcr:content/onTime
-* jcr:content/offTime
-* jcr:content/metadata/dam:size
-* jcr:content/metadata/tiff:ImageWidth
-* jcr:content/metadata/tiff:ImageLength
+* `jcr:content/metadata/cq:tags`
+* `jcr:content/metadata/dc:format`
+* `jcr:content/metadata/dam:status`
+* `jcr:content/metadata/videoCodec`
+* `jcr:content/metadata/audioCodec`
+* `jcr:content/metadata/dc:title`
+* `jcr:content/metadata/dc:description`
+* `jcr:content/metadata/xmpMM:InstanceID`
+* `jcr:content/metadata/xmpMM:DocumentID`
+* `jcr:content/metadata/dam:sha1`
+* `jcr:content/metadata/dam:solutionContext`
+* `jcr:content/metadata/videoBitrate`
+* `jcr:content/metadata/audioBitrate`
+* `jcr:content/usages/usedBy`
+* `jcr:content/jcr:lastModified`
+* `jcr:content/metadata/prism:expirationDate`
+* `jcr:content/onTime`
+* `jcr:content/offTime`
+* `jcr:content/metadata/dam:size`
+* `jcr:content/metadata/tiff:ImageWidth`
+* `jcr:content/metadata/tiff:ImageLength`

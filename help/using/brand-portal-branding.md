@@ -1,19 +1,15 @@
 ---
 title: Customize wallpaper, header, and email message
-seo-title: Customize wallpaper, header, and email message
-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
-seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
-uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
+description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer's brand.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
 ---
 # Customize wallpaper, header, and email message {#customize-wallpaper-header-and-email-message}
 
- Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
+ Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer's brand.
 
 ## Customize the login screen wallpaper {#customize-the-login-screen-wallpaper}
 
@@ -24,7 +20,6 @@ In the absence of a custom branded wallpaper image, a default wallpaper is displ
    ![](assets/aemlogo.png)
 
 1. From the administrative tools panel, click **[!UICONTROL Branding]**.
-
 
    ![](assets/admin-tools-panel-10.png)
 
@@ -81,7 +76,7 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
 1. To upload a header image, click the **[!UICONTROL Choose Image]** icon and choose **[!UICONTROL Upload]**.
 
-   To use an existing  Brand Portal image, choose **[!UICONTROL Select from existing]**.
+   To use an existing Brand Portal image, choose **[!UICONTROL Select existing]**.
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -96,18 +91,18 @@ The header appears on various Brand Portal pages after you log in to Brand Porta
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. From the toolbar at the top, click the **[!UICONTROL Preview]** icon to generate a preview of the  Brand Portal interface with the header image.
+1. From the toolbar at the top, click the **[!UICONTROL Preview]** icon to generate a preview of the Brand Portal interface with the header image.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
 1. To activate or deactivate the header image, do the following in the **[!UICONTROL Configure Branding > Header Image]** page:
 
-    * To prevent a header image from appearing on  Brand Portal pages, click **[!UICONTROL Deactivate Header]** from the toolbar at the top. A message confirms that the image is deactivated.
+    * To prevent a header image from appearing on Brand Portal pages, click **[!UICONTROL Deactivate Header]** from the toolbar at the top. A message confirms that the image is deactivated.
 
    ![](assets/chlimage_1-4.png)
 
-    * To make the header image reappear on  Brand Portal pages, click **[!UICONTROL Activate Header]** from the toolbar at the top. A message confirms that the image is activated.
+    * To make the header image reappear on Brand Portal pages, click **[!UICONTROL Activate Header]** from the toolbar at the top. A message confirms that the image is activated.
 
    ![](assets/chlimage_1-5.png)
 
@@ -125,7 +120,7 @@ When assets are shared as a link, users receive an email containing the link. Ad
 
    ![](assets/admin-tools-panel-12.png)
 
-1. When assets are shared as links or downloaded through emails, and when  **[!UICONTROL collections]** are shared, email notifications are sent to users. To customize the email message, on the **[!UICONTROL Configure Branding]** page, select **[!UICONTROL Email Message]** from the left rail.
+1. When assets are shared as links or downloaded through emails, and when **[!UICONTROL collections]** are shared, email notifications are sent to users. To customize the email message, on the **[!UICONTROL Configure Branding]** page, select **[!UICONTROL Email Message]** from the left rail.
 
    ![](assets/configure-branding-page-email.png)
 

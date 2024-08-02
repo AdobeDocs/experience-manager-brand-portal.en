@@ -1,20 +1,16 @@
 ---
 title: Manage digital rights of assets
-seo-title: Manage digital rights of assets
 description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
-seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
-uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
 ---
 # Manage digital rights of assets {#manage-digital-rights-of-assets}
 
-Ensuring secure distribution and usage of creative assets and the brand material is vital to protect your brand. This can be enforced across the organization and outside by associating an expiration date (and time) with approved assets published from AEM to Brand Portal, or by licensing these assets for conditional use. Also, Brand Portal allows you to specify an expiration date for links to the assets shared from Brand Portal.
+Ensuring secure distribution and usage of creative assets and the brand material is vital to protect your brand. This process can be enforced by associating an expiration date (and time) with approved assets published from AEM to Brand Portal, or by licensing these assets for conditional use. Also, Brand Portal lets you specify an expiration date for links to the assets shared from Brand Portal.
 
 Read on to know how the assets are secured on Brand Portal and understand the associated usage permissions.
 
@@ -24,13 +20,13 @@ Asset expiration is an effective way of controlling the usage of approved assets
 
 ### Usage permissions related to expired assets {#usage-permissions-expired-assets}
 
-In Brand Portal, Administrators can view, download, and add expired assets to collections. Whereas, Editors and Viewers can only view and add expired assets to collections.
+In Brand Portal, Administrators can view, download, and add expired assets to collections. However, Editors and Viewers can only view and add expired assets to collections.
 
-Administrators can publish expired assets from AEM Assets to Brand Portal. However, expired assets cannot be shared via ink from Brand Portal. If you select any expired asset from a folder containing both expired and non-expired assets, the **[!UICONTROL Share Link]** action is not available. But, if you select a folder that contains expired and non-expired assets, the [!UICONTROL Share] and **[!UICONTROL Share Link]** actions are available.
+Administrators can publish expired assets from AEM Assets to Brand Portal. However, expired assets cannot be shared by way of a link from Brand Portal. If you select any expired asset from a folder containing both expired and non-expired assets, the **[!UICONTROL Share Link]** action is not available. But, if you select a folder that contains expired and non-expired assets, the [!UICONTROL Share] and **[!UICONTROL Share Link]** actions are available.
 
 >[!NOTE]
 >
->A folder can still be shared as a link, even if it contains expired assets. In this case, the link  does not list expired assets and only the non-expired assets are shared.
+>A folder can still be shared as a link, even if it contains expired assets. In this case, the link does not list expired assets and only the non-expired assets are shared.
 
 The following table displays the usage permissions of expired assets:
 
@@ -57,19 +53,19 @@ You can view the expiration status of assets in their **[!UICONTROL Card View]**
 
 ## Asset Link Expiration {#asset-link-expiration}
 
-While sharing assets through links, Administrators and Editors can set a date and time of expiration using the **[!UICONTROL Expiration]** field in the **[!UICONTROL Link Sharing]** dialog box. The default expiration of link is seven days from the date on which link is shared.
+While sharing assets through links, Administrators and Editors can set a date and time of expiration using the **[!UICONTROL Expiration]** field in the **[!UICONTROL Link Sharing]** dialog box. The default expiration of a link is seven days from the date on which the link is shared.
 
 ![](assets/asset-link-sharing.png)
 
-It ensures that assets shared as links expire at the date and time set by Brand Portal Administrators and Editors, and can no longer be viewed and downloaded beyond the expiration date. As the assets shared through links can also be viewed by external users who are not part of the organization, by specifying expiration you can make sure that your approved assets are protected and not exposed to unknown entities beyond a specified time.
+It ensures that assets shared as links expire at the date and time set by Brand Portal Administrators and Editors. And, the assets can no longer be viewed and downloaded beyond the expiration date. To protect your approved assets from external users, set an expiration date on shared links to ensure they are not exposed to unknown entities beyond a specified time.
 
 For more information about link sharing, refer to [Share assets as a link](../using/brand-portal-link-share.md).
 
 ## Licensed Assets {#licensed-assets}
 
-Licensed assets are subject to the acceptance of a license agreement prior to download from Brand Portal. This agreement for licensed assets comes when you directly download the asset from Brand Portal or via a shared link. Whether expired or not expired, license-protected assets can be viewed by all the users. However, the download and usage of expired licensed assets are limited. To know about the behavior of expired licensed assets and permissible activities based on user roles, refer to [usage permissions of expired assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Licensed assets are subject to the acceptance of a license agreement prior to download from Brand Portal. This agreement for licensed assets comes when you directly download the asset from Brand Portal or by way of a shared link. Whether expired or not expired, all the users can view icense-protected assets. However, the download and usage of expired licensed assets are limited. To know about the behavior of expired licensed assets and permissible activities based on user roles, refer to [usage permissions of expired assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-License-protected assets have [license agreement attached](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) to them, which is done by setting the asset's metadata property in [!DNL Experience Manager Assets]. 
+License-protected assets have a [license agreement attached](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) to them, which is done by setting the asset's metadata property in [!DNL Experience Manager Assets]. 
 
 An asset is considered protected if it contains one of the following (or both) metadata properties:
 
@@ -77,14 +73,14 @@ An asset is considered protected if it contains one of the following (or both) m
 * `adobe_dam:restrictions`: The value of this property is a raw HTML that specifies the license agreement. 
 
 
-If you choose to download license-protected asset(s), you are redirected to the **[!UICONTROL Copyright Management]** page depending upon the metadata properties.
+If you chose to download license-protected assets, you are redirected to the **[!UICONTROL Copyright Management]** page depending upon the metadata properties.
 
 | `adobe_dam:restrictions` | `xmpRights:WebStatement` | Copyright Management |
 | --- | --- | --- |
 | Yes | - | The interface appears in both, Assets and Brand Portal |
 | - | Yes (invalid path) | No interface |
 | Yes | Yes (invalid path) | No interface |
-| Yes | Yes (valid path) | The interface appears in Assets or Brand Portal </br> Depending on whether the path is valid for Assets or Brand Portal (or both).|
+| Yes | Yes (valid path) | The interface appears in Assets or Brand Portal</br>Depending on whether the path is valid for Assets or Brand Portal (or both).|
 
 ![](assets/asset-copyright-mgmt.png)
 
@@ -100,4 +96,4 @@ Administrators can generate and download a report listing all the assets expired
 
 ![](assets/assets-expired.png)
 
-For more information about the reports feature, refer [Work with reports](../using/brand-portal-reports.md#work-with-reports).
+For more information about the reports feature, go to [Work with reports](../using/brand-portal-reports.md#work-with-reports).

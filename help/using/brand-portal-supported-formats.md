@@ -1,13 +1,9 @@
 ---
 title: Supported file formats
-seo-title: Supported file formats
 description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix. 
-seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix. 
-uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
-discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 ---
 # Supported file formats {#supported-file-formats}
@@ -53,8 +49,8 @@ Each Experience Manager Assets Brand Portal supports specific file formats, as i
 | MIDI        | ✓                                | NA                                   | ✓                                  | NA                                   | NA                                            | ✓           | ✕                     | ✕                   |
 | 3GP         | ✓                                | NA                                   | ✓                                  | NA                                   | NA                                            | ✓           | ✕                     | ✕                   |
 | MP3         | ✓                                | NA                                   | ✓                                  | NA                                   | ✕                                             | ✓           | ✕                     | ✕                   |
-| Mp4         | ✓                                | NA                                   | ✓                                  | NA                                   | ✓                                             | ✓           | ✕                     | ✕                   |
-| Mpg         | ✓                                | NA                                   | ✓                                  | NA                                   | NA                                            | ✓           | ✕                     | ✕                   |
+| MP4         | ✓                                | NA                                   | ✓                                  | NA                                   | ✓                                             | ✓           | ✕                     | ✕                   |
+| MPG         | ✓                                | NA                                   | ✓                                  | NA                                   | NA                                            | ✓           | ✕                     | ✕                   |
 | OGA         | ✓                                | NA                                   | ✓                                  | NA                                   | ✕                                             | ✓           | ✕                     | ✕                   |
 | OGG         | ✓                                | NA                                   | ✓                                  | NA                                   | ✓                                             | ✓           | ✕                     | ✕                   |
 | RA          | ✓                                | NA                                   | ✓                                  | NA                                   | NA                                            | ✓           | ✕                     | ✕                   |

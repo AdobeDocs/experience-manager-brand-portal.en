@@ -196,7 +196,7 @@ To view and download reports for a delete job:
 
 ### Delete a report
 
-Brand Portal also allows you to select one or multiple reports and delete them manually.
+Brand Portal also lets you select one or multiple reports and delete them manually.
 
 To delete a report:
 

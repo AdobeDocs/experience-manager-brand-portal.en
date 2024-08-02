@@ -1,14 +1,10 @@
 ---
 title: Share a collection
-seo-title: Share a collection
-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
-seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
-uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
+description: Learn how Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 ---
 # Share collections {#share-collections}
@@ -17,17 +13,17 @@ A collection represents a group of related assets stored together in Adobe Exper
 
  <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Collections are shared as link via an e-mail. Everybody with access to the share link can open the collection, whereas, shared e-mails can be forwarded to anyone. Additionally, [shared links](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) are temporary and accessible for a limited duration only. Alternatively, users can be invited as permanent members to collections. There are the following types of users for the collections:
+Collections are shared as link by way of an e-mail. Everybody with access to the share link can open the collection. However, shared e-mails can be forwarded to anyone. Additionally, [shared links](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) are temporary and accessible for a limited duration only. Alternatively, users can be invited as permanent members to collections. There are the following types of users for the collections:
 
-* **Administrators** can share or unshare a collection with authorized Brand Portal users. They can invite other users to a specific collection and define their role on that collection. In addition, administrators can create public collections.
+* **Administrators** can share or unshare a collection with authorized Brand Portal users. They can invite other users to a specific collection and define their role in that collection. In addition, administrators can create public collections.
 
-* **Editors** are allowed to create and share collections. They can invite other users to a specific collection and define their role on that collection. In addition, they can also share collections, if they have been invited to the collection as an editor or owner.
+* **Editors** are allowed to create and share collections. They can invite other users to a specific collection and define their role in that collection. In addition, they can also share collections, if they have been invited to the collection as an editor or owner.
 
-* **Viewers** can create private collections only. They are not allowed to share a collection even when they were invited as owners.
+* **Viewers** can create private collections only. They cannot share a collection even when they were invited as owners.
 
 >[!NOTE]
 >
->Editors cannot change a public collection to a non-public collection and therefore do not have the **[!UICONTROL Public Collection]** check box available in **[!UICONTROL Collection Settings]** dialog.
+>Editors cannot change a public collection to a non-public collection and therefore do not have the **[!UICONTROL Public Collection]** check box available in the **[!UICONTROL Collection Settings]** dialog box.
 
 ## Share a collection {#share-collection}
 
@@ -47,7 +43,7 @@ Following are the steps to share a collection with the authorized Brand Portal u
     
      ![](assets/collection-console.png)
 
-1. In the **[!UICONTROL Collection Settings]** dialog box, select the users with whom you want to share the collection and select the role for the user to match their global role. For example, assign Editor role to a global editor, Viewer role to a global viewer.
+1. In the **[!UICONTROL Collection Settings]** dialog box, select the users with whom you want to share the collection and select the role for the user to match their global role. For example, assign the Editor role to a global editor, the Viewer role to a global viewer.
 
    Alternatively, to make the collection available to all the users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Collection]** check box.
 
@@ -57,7 +53,7 @@ Following are the steps to share a collection with the authorized Brand Portal u
 
    ![](assets/collection_sharingadduser.png)
 
-   The editors cannot change a public collection to a non-public collection and therefore do not have **[!UICONTROL Public Collection]** check box available in **[!UICONTROL Collection Settings]** dialog.
+   The editors cannot change a public collection to a non-public collection and therefore do not have a **[!UICONTROL Public Collection]** check box available in the **[!UICONTROL Collection Settings]** dialog.
 
    ![](assets/collection-setting-editor.png)
 

@@ -1,13 +1,9 @@
 ---
 title: Share folders
-seo-title: Share folders
-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
+description: Brand Portal requires assets to be published from a pre-configured Experience Manager Assets Author instance. Non-admin users can access published assets only if configured during replication setup with Experience Manager, and assets must be shared with them.
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
 ---
 # Share folders on Brand Portal {#share-folders}
@@ -26,17 +22,17 @@ The following describes the folder share workflow and user access:
 
 ### Share folders with user groups on Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Access rights on assets of a folder are dependant on the access rights on its parent folder, irrespective of the settings of children folders. This behavior is governed by [ACLs](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) in AEM, as children folders inherit ACLs from their parent folders. For example, if a folder A contains folder B which contains folder C, then a user group (or users) having access rights on folder A also have the same access rights on folder B and folder C. Folder B being the child folder of A inherits its ACLs, and folder C being the child folder of B inherits its ACLs.
+Access rights on assets of a folder are dependant on the access rights on its parent folder, irrespective of the settings of children folders. [ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) in AEM govern this behavior, with child folders inheriting ACLs from their parent folders. For example, suppose folder A contains folder B, which contains folder C. Then a user group (or users) having access rights on folder A also have the same access rights on folder B and folder C. Folder B being the child folder of A inherits its ACLs, and folder C being the child folder of B inherits its ACLs.
 
-Similarly, user groups (or users) having permissions to access only folder B have the same access permissions on folder C but not on folder A. It is, therefore, advised that the organizations arrange their content such that most exposed assets are placed in the children folder and from children to root folder access can be restricted.
+Similarly, user groups (or users) having permissions to access only folder B have the same access permissions on folder C but not on folder A. Adobe recommends organizing content so that the most exposed assets are placed in child folders, allowing access to be restricted from the child folders up to the root folder.
 
 ### Public folder publish {#public-folder-publish}
 
-Unless the **[!UICONTROL Public Folder Publish]** option is selected while configuring Brand Portal replication, non-admin users (such as Editors and Viewers) do not have access to assets published from AEM Assets to Brand Portal.
+Non-admin users (such as Editors and Viewers) can access assets published from AEM Assets to Brand Portal only if the **[!UICONTROL Public Folder Publish]** option is selected during Brand Portal replication configuration.
 
 ![](assets/assetbpreplication.png)
 
-If the **[!UICONTROL Public Folder Publish]** option is disabled, administrators need to specifically share these assets with non-admin users using share capability.
+If the **[!UICONTROL Public Folder Publish]** option is disabled, administrators need to share these assets specifically with non-admin users using the share capability.
 
 >[!NOTE]
 >
@@ -44,9 +40,9 @@ If the **[!UICONTROL Public Folder Publish]** option is disabled, administrators
 
 ## Access to shared folders {#access-to-shared-folders}
 
-The following matrix discusses the access rights and rights to share/ unshare assets for various user roles:  
+The following matrix discusses the access rights and rights to share or unshare assets for various user roles:  
 
-|               | Access to all folders published from AEM Assets to Brand Portal | Access to shared folders | Share/unshare folder rights |
+|               | Access to all folders published from AEM Assets to Brand Portal | Access to shared folders | Share or unshare folder rights |
 |---------------|-----------|-----------|------------|
 | Administrator | Yes | Yes | Yes |
 | Editor | No* | Yes, only if shared with them or with the group to which they belong | Yes, only for the folders shared with them or with the group to which they belong |
@@ -55,15 +51,15 @@ The following matrix discusses the access rights and rights to share/ unshare as
 
 >[!NOTE]
 >
->By default, the **[!UICONTROL Public Folder Publish]** option is disabled while configuring replication of Brand Portal with AEM Author. If the option is enabled, then the folders published to Brand Portal will be accessible to all the users (non-admin users also) by default.
+>By default, the **[!UICONTROL Public Folder Publish]** option is disabled while configuring replication of Brand Portal with AEM Author. If the option is enabled, then the folders published to Brand Portal are accessible to all the users (non-admin users also) by default.
 
 ### Non-admin user access to shared folders {#non-admin-user-access-to-shared-folders}
 
-Non-admin users can access only the folders shared with them on Brand Portal. However, how these folders are displayed on the portal when they log in depends on the settings of **[!UICONTROL Enable Folder Hierarchy]** configuration.
+Non-admin users can access only the folders shared with them on Brand Portal. However, how these folders are displayed on the portal when they log in depends on the settings of the **[!UICONTROL Enable Folder Hierarchy]** configuration.
 
 **If the configuration is disabled**
 
-Non-admin users see all the folders shared with them on landing page, on logging in to the Brand Portal.
+Non-admin users can see all the folders shared with them on the landing page, on logging in to the Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -71,9 +67,9 @@ Non-admin users see all the folders shared with them on landing page, on logging
 
 Non-admin users see the folder tree (starting from the root folder) and the shared folders arranged within their respective parent folders, on logging in to the Brand Portal.
 
-These parent folders are the virtual folders and no actions can be performed on them. You can recognize these virtual folders with a lock icon.
+These parent folders are virtual folders and no actions can be performed on them. You can recognize these virtual folders with a lock icon.
 
-No action tasks are visible on hovering or selecting them in **[!UICONTROL Card View]**, unlike the shared folders. **[!UICONTROL Overview]** button is shown on selecting a virtual folder in **[!UICONTROL Column View]** and **[!UICONTROL List View]**.
+No action tasks are visible on hovering or selecting them in **[!UICONTROL Card View]**, unlike the shared folders. The **[!UICONTROL Overview]** button is shown on selecting a virtual folder in **[!UICONTROL Column View]** and **[!UICONTROL List View]**.
 
 >[!NOTE]
 >
@@ -89,7 +85,7 @@ To share a folder with users on Brand Portal, follow these steps:
 
    ![](assets/selectorrail.png)
 
-1. From the siderail on the left, select **[!UICONTROL Files]**.
+1. From the side rail on the left, select **[!UICONTROL Files]**.
 
    ![](assets/access_files.png)
 

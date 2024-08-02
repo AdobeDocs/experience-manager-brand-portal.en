@@ -1,14 +1,10 @@
 ---
 title: Release Notes
-seo-title: Release Notes
 description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 ---
 # Release Notes {#release-notes}
@@ -24,7 +20,7 @@ Get an insight into the new features, enhancements, critical issues fixed, and k
 
 ## Overview {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time to market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats—anytime, anywhere.
+Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time to market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats-anytime, anywhere.
 
 ## What's New in 2024.02.0 {#whats-new-in-2024.02.0}
 
@@ -34,10 +30,10 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes the following bug fixes:
 
-* Unable to download digital assets protected by DRM in Turkish locale.
+* Unable to download digital assets protected by DRM in the Turkish locale.
 * Unable to open and download the existing reports containing assets with multi-line title.
-* When you download assets using [!UICONTROL Download] button from the action bar, a maximum of 1000 assets are downloaded.
-* Incorrect name of PSD type assets, when viewing in the Content Tree.
+* When you download assets using the [!UICONTROL Download] button from the action bar, a maximum of 1000 assets are downloaded.
+* Incorrect name of PSD type assets, when viewing in the content tree.
 * [!UICONTROL Delete Rendition] option on the asset details page is not working.
 * Misaligned title and size of assets in download pop-up window.
 * While creating a report, labels are not localized.
@@ -60,7 +56,7 @@ This release includes the following bug fixes:
 
 * The [!UICONTROL Date and Time] format is inconsistent while working in locale other than English.
 
-* While performing search for assets, the [!UICONTROL Delete] button is missing.
+* While performing a search for assets, the [!UICONTROL Delete] button is missing.
 
 * If the [!UICONTROL Title] field contains multibyte symbols in [!UICONTROL Link Share], the report cannot be downloaded.
 
@@ -77,7 +73,7 @@ This release includes the following enhancements:
 This release includes the following bug fixes:
 
 * The long labels or tags do not display appropriately for search filters. 
-* Unable to display long rendition names on the Download dialog.
+* Unable to display long rendition names in the Download dialog box.
 * Unable to preview video assets in Card view.
 
 ### May 2023 release {#may-2023}
@@ -92,7 +88,7 @@ This release includes fixes to the following critical issues:
 This release includes the following known issues:
 
 * Partial localization in Asset sourcing report content.
-* Few fields of the user profile are not editable on user profile.
+* Few fields of the user profile are not editable on the user profile.
 
 ### February 2023 release {#feb-2023}
 
@@ -122,7 +118,7 @@ This release includes the following enhancements:
 This release includes the following known issues:
 
 * Partial localization in Asset sourcing report content.
-* Few fields of the user profile are not editable on user profile.
+* Few fields of the user profile are not editable on the user profile.
 
 ### October 2022 release {#oct-2022}
 
@@ -136,8 +132,9 @@ This release includes fixes to the following critical issues:
 
 >[!IMPORTANT]
 >
->Pulse notifications in AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of Pulse notifications, you will continue receiving email notifications for the following events: 
->* Sharing assets via link
+>Pulse notifications in the AEM Assets Brand Portal is going to discontinue from December 1, 2022. Instead of Pulse notifications, you continue receiving email notifications for the following events: 
+>
+>* Sharing assets by way of link
 >* Requesting access workflow
 >* Sharing of contribution folder
 >* Initiating export to AEM
@@ -152,8 +149,8 @@ This release includes fixes to the following critical issues:
 
 * When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
 * When the preview action fails, there is no notification to communicate the failure.
-* Inaccurate value for the totalUploadedSize property for each asset is fixed.
-* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
+* The inaccurate value for the `totalUploadedSize` property for each asset is fixed.
+* When you click **Download all items** and there are a large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
 * The translation of some strings gets truncated on the Brand Portal user interface.
 
 ### May 2022 release {#may-2022}
@@ -168,7 +165,7 @@ This release includes fixes to the following critical issues:
 
 * When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
 * When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
-* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
+* When you create presets and assets on AEM author, then you publish them to Brand Portal, you can select dynamic renditions while downloading the assets. However, you cannot extract the downloaded .ZIP file. This issue prevents access to the downloaded content.
 * Issues while downloading video assets from certain folders available on Brand Portal.
 * When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 * Sourcing published report displays an incorrect job start time.
@@ -354,7 +351,7 @@ This release includes the following known issues:
 
 ## Languages {#languages}
 
-The Brand Portal user interface is available in following languages:
+The Brand Portal user interface is available in the following languages:
 
 * English
 * German
@@ -368,12 +365,12 @@ The Brand Portal user interface is available in following languages:
 
 ## Certified Platforms {#certified-platforms}
 
-To ascertain which platforms are certified to run with this release of Brand Portal, refer to the **Support for Touch-optimized UI** column in the table in the **Supported Browsers for Authoring User Interface** section of [Technical Requirements](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+To see which platforms are certified for this Brand Portal release, check the **Support for Touch-optimized UI** column in the **Supported Browsers for Authoring User Interface** section of [Technical Requirements](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements).
 
 ## Links {#links}
 
 * [Adobe Experience Manager Product Page on adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal Documentation](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Assets Brand Portal Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 

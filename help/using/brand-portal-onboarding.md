@@ -1,27 +1,24 @@
 ---
 title: First-time login experience
-seo-title: First-time login experience
-description: The first-time login experience is same for all new Experience Manager Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
-seo-description: The first-time login experience is same for all new Experience Manager Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
-uuid: 654bdead-2fd9-4b9b-9272-21fd7c4df066
+description: All new Experience Manager Assets Brand Portal users, including Administrators, have the same first-time login experience. After an Administrator adds you to your organization's Brand Portal account, you are automatically included without needing to accept an invitation. You receive a welcome email with a link to access your organization's Brand Portal account.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 exl-id: 1f52045b-afb1-4501-878d-c327d394e258
 ---
 # First-time login experience {#first-time-login-experience}
 
-The first-time login experience is same for all new Experience Manager Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
+All new Experience Manager Assets Brand Portal users, including Administrators, have the same first-time login experience. After an Administrator adds you to your organization's Brand Portal account, you are automatically included without needing to accept an invitation. You receive a welcome email with a link to access your organization's Brand Portal account.
 
 Following are the steps to be performed for the users logging in to Brand Portal for the first time:
 
 1. Open the welcome email, and click **[!UICONTROL Get Started]**.
 
 1. In the sign-up page, specify your details (including first name, last name, password, and country/region).
+
    >[!NOTE]
    >
-   >If you are an existing Adobe Marketing Cloud user, a sign-in page is displayed instead of the sign-up page. To log in to Adobe Marketing Cloud, enter your Adobe ID and password.
+   >If you are an existing Adobe Experience Cloud user, a sign-in page is displayed instead of the sign-up page. To log in to Adobe Experience Cloud, enter your Adobe ID and password.
 
    >[!NOTE]
    >
@@ -34,4 +31,4 @@ Following are the steps to be performed for the users logging in to Brand Portal
 
    >[!NOTE]
    >
-   >To be able to log in to Brand Portal, you must be entitled to at least one Experience Manager Assets product profile.
+   >To log in to Brand Portal, you must be entitled to at least one Experience Manager Assets product profile.

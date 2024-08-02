@@ -1,13 +1,9 @@
 ---
-title: Manage the lightbox collection
-seo-title: Manage the lightbox collection
+title: Manage the Lightbox Collection
 description: Lightbox is a special type of collection that provides easy access to assets. Each user has an exclusive lightbox that is automatically created when they log in to Brand Portal for the first time. The Lightbox collection cannot be deleted.
-seo-description: Lightbox is a special type of collection that provides easy access to assets. Each user has an exclusive lightbox that is automatically created when they log in to Brand Portal for the first time. The Lightbox collection cannot be deleted.
-uuid: c074e45e-e63c-4856-947f-5e9e27bc46fb
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
-discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 role: Admin
 exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
 ---
@@ -23,7 +19,7 @@ To add assets to **[!UICONTROL Lightbox]**, do the following:
 
    ![](assets/link_sharing_assetselection.png)
    
-1. From the toolbar at the top, click the add to collection icon.
+1. From the toolbar at the top, click the **Add to Collection** icon.
 
    ![](assets/add_to_collection.png)
 
@@ -47,7 +43,7 @@ To add assets to **[!UICONTROL Lightbox]**, do the following:
 
    ![](assets/collections_lightbox-1.png)
 
-1. Select the folder you want to remove from the collection, then click **[!UICONTROL Remove]** from the toolbar at the top.
+1. Select the folder that you want to remove from the collection, then click **[!UICONTROL Remove]** from the toolbar at the top.
 
    ![](assets/collections_lightboxdelete.png)
 

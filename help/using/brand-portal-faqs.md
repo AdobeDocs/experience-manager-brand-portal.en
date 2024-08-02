@@ -17,11 +17,11 @@ The Brand Portal FAQs focuses on the end-users queries and issues that they migh
 
 **Question: The existing legacy OAuth endpoint (`https://legacy-oauth.cloud.adobe.io/login`) is not working. What could be the possible reason?**
 
-**Answer:** Legacy OAuth configuration is deprecated. Upgrade Experience Manager Assets author instances to the latest service pack and configure it via Adobe Developer Console. See [Configure Experience Manager Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. However, for Legacy OAuth configuration to work until you upgrade, update the Legacy OAuth endpoint to `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.   
+**Answer:** Legacy OAuth configuration is deprecated. Upgrade Experience Manager Assets author instances to the latest service pack and configure it by way of Adobe Developer Console. See [Configure Experience Manager Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. However, for Legacy OAuth configuration to work until you upgrade, update the Legacy OAuth endpoint to `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.   
 
 **Question: I am not able to publish the contribution folder's assets from Brand Portal to Experience Manager Assets after upgrading to Adobe Developer Console. My author instance is on Experience Manager Assets 6.5.4. What could be the possible reason?**
 
-**Answer:** Yes, there is a known issue while publishing contribution folder's assets to Experience Manager Assets 6.5.4 via Adobe Developer Console. 
+**Answer:** Yes, there is a known issue while publishing contribution folder's assets to Experience Manager Assets 6.5.4 by way of the Adobe Developer Console. 
 
 The issue is fixed in Experience Manager Assets 6.5.5. You can upgrade your Experience Manager Assets instance to the latest service pack and [upgrade your configurations](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) on Adobe Developer Console. 
 

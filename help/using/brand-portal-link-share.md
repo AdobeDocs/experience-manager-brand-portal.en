@@ -1,9 +1,6 @@
 ---
 title: Share assets as a link
-seo-title: Share assets as a link
-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
-seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
-uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
+description: Learn how Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
@@ -27,7 +24,7 @@ Following are the steps to share assets as a link:
 
 1. Log in to your Brand Portal tenant. By default, the **[!UICONTROL Files]** view opens which contains all the published assets and folders.
 
-1. Select the assets or folders that you want to share, or navigate to the **[!UICONTROL Collections]** view to share the collections that you have created. 
+1. Select the assets or folders to share, or navigate to the **[!UICONTROL Collections]** view to share the collections that you have created. 
 
    ![select-multiple-assets](assets/select-assets-new.png)
 
@@ -44,9 +41,9 @@ Following are the steps to share assets as a link:
    * In the **[!UICONTROL Subject]** box, type a subject for the asset you want to share.
    * In the **[!UICONTROL Message]** box, type a message if necessary.
    * In the **[!UICONTROL Expiration]** field, use the date picker to specify an expiration date and time for the link. By default, the expiry date is set to 7 days from the date on which you share the link.
-   * Enable the **[!UICONTROL Allow downlod of original file]** check box to allow the recepients to download the original rendition. 
+   * Enable the **[!UICONTROL Allow download of the original file]** check box to allow the recipients to download the original rendition. 
 
-   The assets shared through the link expire after crossing the date and time specified in the **[!UICONTROL Expiration]** field. For information about the behavior of expired assets and changes in the permissible activities based on user roles in Brand Portal, see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   The assets shared through the link expire after crossing the date and time specified in the **[!UICONTROL Expiration]** field. For details on expired asset behavior and role-based activity changes in Brand Portal, see [Manage digital rights of assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
@@ -62,7 +59,7 @@ Following are the steps to share assets as a link:
 
 ## Download assets from shared links {#download-assets-from-shared-links}
 
-Click the link in the email, to access the shared asset. The AEM Link Share page opens.
+Click the link in the email to access the shared asset. The AEM Link Share page opens.
 
 To download the shared assets:
 
@@ -78,7 +75,7 @@ To download the shared assets:
 
    ![download-dialog](assets/download-dialog-box-new.png)
     
-1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to continue downloading using IBM Aspera Connect. 
+1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Therefore, a confirmation box appears to continue downloading using IBM&reg; Aspera Connect. 
 
    To continue using **[!UICONTROL Fast Download]**, click **[!UICONTROL Allow]**. 
    
@@ -88,16 +85,16 @@ To download the shared assets:
    >
    >A separate folder is created for each asset while downloading the assets from a shared link.
    >
-   >If a folder, collection, or more than 20 assets are selected for download, the **[!UICONTROL Download]** dialog is skipped and all the asset renditions accessible to the user excluding the dynamic renditions are downloaded in a zip folder containing a separate folder for each asset.
+   >If a folder, collection, or more than 20 assets are selected, the **[!UICONTROL Download]** dialog box is skipped. Also, all accessible asset renditions (excluding dynamic ones) are downloaded in a zip folder with separate folders for each asset.
 
    >[!NOTE]
    >
-   >Original renditions are not downloaded using the shared link if the user who shared the assets as a link is not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+   >If the administrator has not authorized the user who shared the assets, the shared link does not download the original renditions. See also [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
 
 >[!NOTE]
 >
->Brand Portal restricts download of folders or assets, that have size larger than 5 GB, using link share.
+>Brand Portal restricts download of folders or assets that have a size larger than 5 GB, using link share.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -196,9 +193,9 @@ The following legend explains the symbols used in the matrix:
 
 To unshare previously shared assets as a link, do the following:
 
-1. When you login to Brand Portal, the **[!UICONTROL File]** view opens by default. To view the assets you shared as links, navigate to the **[!UICONTROL Shared Links]** view. 
+1. When you log in to Brand Portal, the **[!UICONTROL File]** view opens by default. To view the assets you shared as links, navigate to the **[!UICONTROL Shared Links]** view. 
 
-1. Review the links you shared from the list displayed.
+1. Review the links that you shared from the list displayed.
    
    ![](assets/shared-links.png)
 

@@ -226,7 +226,7 @@ The new **[!UICONTROL Download]** dialog box generalizes the asset selection and
 
 >[!NOTE]
 >
->All the users now have **[!UICONTROL Fast Download]** enabled by default and requires IBM&reg; Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) installed in their browser's extension before downloading the assets from Brand Portal.
+>All the users now have **[!UICONTROL Fast Download]** enabled by default and requires IBM&reg; [Aspera Connect 3.9.9](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all) installed in their browser's extension before downloading the assets from Brand Portal.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog box appears with all the renditions of the selected assets or folders containing assets in a List View. 

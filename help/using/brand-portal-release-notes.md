@@ -31,7 +31,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 This release includes the following bug fixes:
 
 * The email notifications for sourcing import events are not being sent.
-* While using the search filter, Brand Portal displays duplicate folders within search Filter window.
+* While using the search filter, [!DNL Brand Portal] displays duplicate folders within search Filter window.
 * The download of collections containing non-licensed assets with special characters in their names is not working.
 * While navigating to [!UICONTROL Search Form Editor], labels are not localized.
 * Labels are not localized in the link sharing window.

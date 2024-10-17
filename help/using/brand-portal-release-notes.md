@@ -30,15 +30,14 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 This release includes the following bug fixes:
 
-* When an admin disables **[!UICONTROL Allow users to request access]**, you are redirected to the request access page.
-* You cannot download some assets within **[!UICONTROL Collections]**.
-* While navigating to **[!UICONTROL Search Form Editor]**, if you drag **[!UICONTROL Tags Predicate]**, the placeholder is not localized.
-* Brand Portal displays an unlocalized error message while using invalid email address  in the link sharing window.
+* The email notifications for sourcing import events are not being sent.
+* While using the search filter, Brand Portal displays duplicate folders within search Filter window.
+* The download of collections containing non-licensed assets with special characters in their names is not working.
+* While navigating to [!UICONTROL Search Form Editor], labels are not localized.
+* Labels are not localized in the link sharing window.
 * Unable to download video with special characters in its name.
 * Publishing and unpublishing the assets from [!DNL Adobe Experience Manager Assets] to Brand Portal is not working appropriately.
-* When the assets are published, Brand Portal does not send an email notification.
 * Unable to play videos downloaded from the Brand Portal.
-* While using the search filter, Brand Portal displays duplicate folders within search results.
 
 ## Previous releases
 

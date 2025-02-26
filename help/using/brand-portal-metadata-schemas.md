@@ -82,6 +82,7 @@ The **[!UICONTROL Build Form]** tab lists items that you can use in your schema 
 | **[!UICONTROL Asset Referenced By]** | Add this component to view a list of assets referenced by the asset.|
 | **[!UICONTROL Asset Referencing]** | Add to display a list of assets that reference the asset. |
 | **[!UICONTROL Contextual Metadata]** | Add to control the display of other metadata tabs in the Properties page of assets. |
+
 <!--| **[!UICONTROL Asset Rating]** |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal. |-->
 
 >[!NOTE]

@@ -110,7 +110,7 @@ The following are the valid values for this property:
 * **[!UICONTROL Description]**: Use this property to add a short description for the metadata component.
 * **[!UICONTROL Delete icon]**: Click this icon to delete a component from the schema form.
 
-![](assets/delete_icon_editmetadataschemaform.png)
+   ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
@@ -120,11 +120,11 @@ The following are the valid values for this property:
 
 The default schema form includes the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs. The schema editor lets you add or delete a tab.
 
-![](assets/add_delete_tabs_metadataschemaform.png)
+   ![](assets/add_delete_tabs_metadataschemaform.png)
 
 * To add a new tab on a schema form, click **[!UICONTROL +]**. By default, the new tab has the name "Unnamed-1." You can modify the name from the **[!UICONTROL Settings]** tab.
 
-![](assets/add-tab-metadata-form.png)
+   ![](assets/add-tab-metadata-form.png)
 
 * To delete a tab, click **[!UICONTROL x]**. Click **[!UICONTROL Save]** to save the changes.
 
@@ -166,7 +166,7 @@ Brand Portal lets you delete custom schema forms only. It does not let you delet
 
 To delete a form, select a form and click the **[!UICONTROL Delete]** icon.
 
-![](assets/delete_icon_metadataschemaeditorform.png)
+   ![](assets/delete_icon_metadataschemaeditorform.png)
 
 >[!NOTE]
 >

@@ -68,22 +68,21 @@ To edit a metadata schema form, do the following:
 
 The **[!UICONTROL Build Form]** tab lists items that you can use in your schema form. The **[!UICONTROL Settings]** tab provides the attributes of each item that you select in the **[!UICONTROL Build Form]** tab. The following table lists the form items available in the **[!UICONTROL Build Form]** tab:
 
-| Component Name      | Description                                                                                                                                                                                                                                                                                |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[!UICONTROL Section Header]**      |  Add a section heading for a list of common components.                                                                                                                                                                                                                                    |
-| **[!UICONTROL Single Line Text]**    |  Add a single line text property. It is stored as a string.                                                                                                                                                                                                                                |
-| **[!UICONTROL Multi ValueText]**     |  Add a multi-value text property. It is stored as a string array.                                                                                                                                                                                                                          |
-| **[!UICONTROL Number]**              |  Add a number component.                                                                                                                                                                                                                                                                   |
-| **[!UICONTROL Date]**                |  Add a date component.                                                                                                                                                                                                                                                                     |
-| **[!UICONTROL Dropdown]**            |  Add a dropdown list.                                                                                                                                                                                                                                                                      |
-| **[!UICONTROL Standard Tags]**       |  Add a tag. Administrators may need to change the path value. For example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from Experience Manager Assets, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Smart Tags]**          |  Auto-detected tags if you have purchased and configured the Experience Manager Assets smart tags add-on.                                                                                                                                                                                                        |
-| **[!UICONTROL Hidden Field]**        |  Add a hidden field. It is sent as a POST parameter when the asset is saved.                                                                                                                                                                                                               |
-| **[!UICONTROL Asset Referenced By]** |  Add this component to view a list of assets referenced by the asset.                                                                                                                                                                                                                        |
-| **[!UICONTROL Asset Referencing]**   |  Add to display a list of assets that reference the asset.                                                                                                                                                                                                                                 |
-| **[!UICONTROL Contextual Metadata]** |  Add to control the display of other metadata tabs in the Properties page of assets.                                                                                                                                                                                                       |
-<!--| **[!UICONTROL Asset Rating]**        |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal.                                                                                                                                                                                                  |-->
-
+| Component Name | Description |
+|----|----|
+| **[!UICONTROL Section Header]** | Add a section heading for a list of common components.|
+| **[!UICONTROL Single Line Text]** | Add a single line text property. It is stored as a string.| 
+| **[!UICONTROL Multi ValueText]** | Add a multi-value text property. It is stored as a string array.|
+| **[!UICONTROL Number]** | Add a number component.|
+| **[!UICONTROL Date]** | Add a date component.|
+| **[!UICONTROL Dropdown]** | Add a dropdown list. |
+| **[!UICONTROL Standard Tags]** |  Add a tag. Administrators may need to change the path value. For example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from Experience Manager Assets, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Smart Tags]** | Auto-detected tags if you have purchased and configured the Experience Manager Assets smart tags add-on. |
+| **[!UICONTROL Hidden Field]** | Add a hidden field. It is sent as a POST parameter when the asset is saved. |
+| **[!UICONTROL Asset Referenced By]** | Add this component to view a list of assets referenced by the asset.|
+| **[!UICONTROL Asset Referencing]** | Add to display a list of assets that reference the asset. |
+| **[!UICONTROL Contextual Metadata]** | Add to control the display of other metadata tabs in the Properties page of assets. |
+<!--| **[!UICONTROL Asset Rating]** |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal. |-->
 
 >[!NOTE]
 >

@@ -68,21 +68,22 @@ To edit a metadata schema form, do the following:
 
 The **[!UICONTROL Build Form]** tab lists items that you can use in your schema form. The **[!UICONTROL Settings]** tab provides the attributes of each item that you select in the **[!UICONTROL Build Form]** tab. The following table lists the form items available in the **[!UICONTROL Build Form]** tab:
 
-| Component Name      | Description                                                                                                                                                                                                                                                                                |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[!UICONTROL Section Header]**      |  Add a section heading for a list of common components.                                                                                                                                                                                                                                    |
-| **[!UICONTROL Single Line Text]**    |  Add a single line text property. It is stored as a string.                                                                                                                                                                                                                                |
-| **[!UICONTROL Multi ValueText]**     |  Add a multi-value text property. It is stored as a string array.                                                                                                                                                                                                                          |
-| **[!UICONTROL Number]**              |  Add a number component.                                                                                                                                                                                                                                                                   |
-| **[!UICONTROL Date]**                |  Add a date component.                                                                                                                                                                                                                                                                     |
-| **[!UICONTROL Dropdown]**            |  Add a dropdown list.                                                                                                                                                                                                                                                                      |
-| **[!UICONTROL Standard Tags]**       |  Add a tag. Administrators may need to change the path value. For example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from Experience Manager Assets, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Smart Tags]**          |  Auto-detected tags if you have purchased and configured the Experience Manager Assets smart tags add-on.                                                                                                                                                                                                        |
-| **[!UICONTROL Hidden Field]**        |  Add a hidden field. It is sent as a POST parameter when the asset is saved.                                                                                                                                                                                                               |
-| **[!UICONTROL Asset Referenced By]** |  Add this component to view a list of assets referenced by the asset.                                                                                                                                                                                                                        |
-| **[!UICONTROL Asset Referencing]**   |  Add to display a list of assets that reference the asset.                                                                                                                                                                                                                                 |
-| **[!UICONTROL Asset Rating]**        |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal.                                                                                                                                                                                                  |
-| **[!UICONTROL Contextual Metadata]** |  Add to control the display of other metadata tabs in the Properties page of assets.                                                                                                                                                                                                       |
+| Component Name | Description |
+|----|----|
+| **[!UICONTROL Section Header]** | Add a section heading for a list of common components.|
+| **[!UICONTROL Single Line Text]** | Add a single line text property. It is stored as a string.| 
+| **[!UICONTROL Multi ValueText]** | Add a multi-value text property. It is stored as a string array.|
+| **[!UICONTROL Number]** | Add a number component.|
+| **[!UICONTROL Date]** | Add a date component.|
+| **[!UICONTROL Dropdown]** | Add a dropdown list. |
+| **[!UICONTROL Standard Tags]** |  Add a tag. Administrators may need to change the path value. For example, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, if they publish the metadata schema form from Experience Manager Assets, where the path does not include tenant information, for example, `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Smart Tags]** | Auto-detected tags if you have purchased and configured the Experience Manager Assets smart tags add-on. |
+| **[!UICONTROL Hidden Field]** | Add a hidden field. It is sent as a POST parameter when the asset is saved. |
+| **[!UICONTROL Asset Referenced By]** | Add this component to view a list of assets referenced by the asset.|
+| **[!UICONTROL Asset Referencing]** | Add to display a list of assets that reference the asset. |
+| **[!UICONTROL Contextual Metadata]** | Add to control the display of other metadata tabs in the Properties page of assets. |
+
+<!--| **[!UICONTROL Asset Rating]** |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal. |-->
 
 >[!NOTE]
 >
@@ -109,7 +110,7 @@ The following are the valid values for this property:
 * **[!UICONTROL Description]**: Use this property to add a short description for the metadata component.
 * **[!UICONTROL Delete icon]**: Click this icon to delete a component from the schema form.
 
-![](assets/delete_icon_editmetadataschemaform.png)
+   ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
@@ -119,11 +120,11 @@ The following are the valid values for this property:
 
 The default schema form includes the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs. The schema editor lets you add or delete a tab.
 
-![](assets/add_delete_tabs_metadataschemaform.png)
+   ![](assets/add_delete_tabs_metadataschemaform.png)
 
 * To add a new tab on a schema form, click **[!UICONTROL +]**. By default, the new tab has the name "Unnamed-1." You can modify the name from the **[!UICONTROL Settings]** tab.
 
-![](assets/add-tab-metadata-form.png)
+   ![](assets/add-tab-metadata-form.png)
 
 * To delete a tab, click **[!UICONTROL x]**. Click **[!UICONTROL Save]** to save the changes.
 
@@ -165,7 +166,7 @@ Brand Portal lets you delete custom schema forms only. It does not let you delet
 
 To delete a form, select a form and click the **[!UICONTROL Delete]** icon.
 
-![](assets/delete_icon_metadataschemaeditorform.png)
+   ![](assets/delete_icon_metadataschemaeditorform.png)
 
 >[!NOTE]
 >

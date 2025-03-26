@@ -117,7 +117,6 @@ Browse from your local machine and upload a **configuration (.csv) file** contai
 
    ![](assets/upload-user-list2.png)
 
-
 Administrators can provide access to specific users from this user list while configuring a contribution folder. Only the users that are assigned to a contribution folder have access to the contribution folder and publish assets from Brand Portal to Experience Manager Assets.   
 
 ## See also {#reference-articles}

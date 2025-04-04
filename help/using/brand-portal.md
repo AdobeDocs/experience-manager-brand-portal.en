@@ -91,7 +91,7 @@ Brand Portal user defined in the [!DNL Admin Console] who has access to Brand Po
 
 ### Editor {#editor}
 
-A user with the role of Editor can perform all tasks that a Viewer can perform. In addition, and Editor can view the files and folders that an administrator shares. The user with the role of an Editor can also share content (files, folders, collections) with others.
+A user with the role of Editor can perform all tasks that a Viewer can perform. In addition, an Editor can view the files and folders that an administrator shares. The user with the role of an Editor can also share content (files, folders, collections) with others.
 
 Apart from the tasks that a Viewer can perform, an Editor can perform the following additional tasks:
 

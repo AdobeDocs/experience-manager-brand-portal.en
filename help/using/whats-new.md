@@ -157,9 +157,17 @@ Brand Portal 2021.06.0 is an internal release that includes fixes to the critica
 
 Brand Portal 2021.02.0 enhances AEM Assets as a Cloud Service with the activation workflow and Asset Sourcing feature. It also improves the asset download experience and includes critical fixes. It also enables the administrators to configure the default download behavior of folders, collections, and bulk download of assets at tenant level. The Brand Portal **[!UICONTROL Usage Report]** has also been modified to reflect the active Brand Portal users.
 
+>[!IMPORTANT]
+>
+> * Brand Portal is currently under maintenance. 
+> * You can contact your Adobe representative with details of your use case and specific requirements to activate Brand Portal using Cloud Manager. 
+> * Brand Portal is not available with Assets Prime or Assets Ultimate. However, existing Assets Cloud Services customers who already have access to Brand Portal can retain it when they transition to Assets Ultimate.
+
+<!--
+
 ### Activate Brand Portal on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance. 
+AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
 Earlier, AEM Assets as a Cloud Service was manually configured with Brand Portal using Adobe Developer Console.
 
@@ -182,6 +190,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
 See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+-->
 
 ### Asset Download {#asset-download-setting}
 

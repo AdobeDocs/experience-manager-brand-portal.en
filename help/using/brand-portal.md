@@ -27,7 +27,13 @@ Configuring Adobe Experience Manager Assets with Brand Portal enables asset publ
 >
 >Configuring Experience Manager Assets with Brand Portal is supported on Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 and above.
 
-Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.  
+>[!IMPORTANT]
+>
+> * Brand Portal is currently under maintenance. 
+> * You can contact your Adobe representative with details of your use case and specific requirements to activate Brand Portal using Cloud Manager. 
+> * Brand Portal is not available with Assets Prime or Assets Ultimate. However, existing Assets Cloud Services customers who already have access to Brand Portal can retain it when they transition to Assets Ultimate.
+
+<!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
 However, Experience Manager Assets (on premise and managed service) is manually configured with Brand Portal using Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of the Brand Portal tenant. 
 

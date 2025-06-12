@@ -29,9 +29,9 @@ Configuring Adobe Experience Manager Assets with Brand Portal enables asset publ
 
 >[!IMPORTANT]
 >
-> * Brand Portal is currently under maintenance. 
-> * You can contact your Adobe representative with details of your use case and specific requirements to activate Brand Portal using Cloud Manager. 
-> * Brand Portal is not available with Assets Prime or Assets Ultimate. However, existing Assets Cloud Services customers who already have access to Brand Portal can retain it when they transition to Assets Ultimate.
+> * Brand Portal is in maintenance mode. All new product innovations are available on [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
+> * If you still need to activate Brand Portal, contact your Adobe representative with details of your use case and other specific requirements.
+> * Brand Portal is not available with [Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) or [Assets Ultimate](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). However, existing Assets as a Cloud Service customers, who already have access to Brand Portal can continue to use it when they transition to Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 

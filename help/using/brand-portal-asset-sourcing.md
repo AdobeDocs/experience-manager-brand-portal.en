@@ -34,7 +34,7 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 >[!NOTE]
 >
->The Asset Sourcing feature is by default enabled on Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 and above. 
+>The Asset Sourcing feature is by default enabled on Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9, and above. 
 >
 >The existing configurations continue to work on the earlier versions.
 

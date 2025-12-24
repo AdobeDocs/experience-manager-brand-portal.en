@@ -2,7 +2,6 @@
 title: Asset Sourcing in Brand Portal
 description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
 content-type: reference
-contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 sub-product: assets
@@ -26,7 +25,7 @@ Additionally, all existing functionality remains unchanged. Brand Portal users c
 
 ## Prerequisites {#prerequisites}
 
-* Experience Manager Assets as a Cloud Service instance, Experience Manager Assets 6.5.2 or above.
+* Experience Manager Assets as a Cloud Service instance, Experience Manager Assets 6.5.2, or above.
 * Ensure that your Experience Manager Assets instance is configured with Brand Portal. See, [Configure Experience Manager Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--

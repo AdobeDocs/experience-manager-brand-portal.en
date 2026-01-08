@@ -53,8 +53,8 @@ Adobe recommends that you use lowercase letters without any space to name the fo
 
    >[!NOTE]
    >
-   > A sourcing folder must contain at least one item and cannot be left empty.
-   >A non-admin user can create and share an asset contribution folder but cannot modify or delete it.  
+   > * A sourcing folder cannot be empty and must contain at least one item, as empty folders cannot be published from Brand Portal to AEM.
+   > * A non-admin user can create and share an asset contribution folder but cannot modify or delete it.  
 
 
    ![](assets/create-contribution-folder.png)

@@ -167,5 +167,5 @@ To set up Dynamic Media **[!UICONTROL Scene7]** configurations on Brand Portal t
 
 5. Provide the **[!UICONTROL Company name]**, and **[!UICONTROL Save]** the configuration.
 
-6. Click **[!UICONTROL Reset]** to clear your changes and restore the configuration to its default state. 
+6. Select **[!UICONTROL Reset]** to clear any changes, reset the password, and restore the configuration to its default state. 
 

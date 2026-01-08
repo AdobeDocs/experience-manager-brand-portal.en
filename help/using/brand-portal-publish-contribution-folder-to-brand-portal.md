@@ -53,6 +53,7 @@ Adobe recommends that you use lowercase letters without any space to name the fo
 
    >[!NOTE]
    >
+   > A sourcing folder must contain at least one item and cannot be left empty.
    >A non-admin user can create and share an asset contribution folder but cannot modify or delete it.  
 
 

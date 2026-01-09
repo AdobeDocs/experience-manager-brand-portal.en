@@ -151,7 +151,7 @@ To set up Dynamic Media **[!UICONTROL Scene7]** configurations on Brand Portal t
 
    ![DM [!UICONTROL Scene 7] configuration on Brand Portal](assets/DMS7-Tile.png)
 
-   **[!UICONTROL Edit Dynamic Media Configuration]** page opens.
+   **[!UICONTROL Edit Dynamic Media Configuration]** page appears.
 
    ![Scene 7 Configuration on Brand Portal](assets/S7Config.png)
 
@@ -166,3 +166,6 @@ To set up Dynamic Media **[!UICONTROL Scene7]** configurations on Brand Portal t
 4. Select **[!UICONTROL Connect to Dynamic Media]**.
 
 5. Provide the **[!UICONTROL Company name]**, and **[!UICONTROL Save]** the configuration.
+
+6. Select **[!UICONTROL Reset]** to clear any changes, reset the password, and restore the configuration to its default state. 
+

@@ -1,32 +1,43 @@
 ---
 title: Release Notes
-description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.10.0 release.
+description: Get an insight into the features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2026.01.0 release.
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 ---
 # Release Notes {#release-notes}
 
-Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.10.0 release.
+Get an insight into the new features, enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2026.01.0 release.
 
 ## Release Information {#release-information}
 
 | Product |Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2024.10.0|
-| Date | October 2024 |
+| Version | 2026.01.0 |
+| Date | January 2026 |
 
 ## Overview {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time to market for assets, and reduces the risk of non-compliance and unauthorized access. Brand Portal allows users to browse, search, preview, download, and export assets in corporate-approved formats-anytime, anywhere.
 
-## What's New in 2024.10.0 {#whats-new-in-2024.10.0}
+## What's New in 2026.01.0 {#whats-new-in-2026.01.0}
 
 ### Critical Issues Fixed {#critical-issues-fixed}
 
-#### Bug fixes {#bug-fixes}
+#### Enhancements {#enhancements}
+
+This release includes the following bug fixes:
+
+* You can use a **[!UICONTROL Reset]** button to clear any changes, reset the password, and restore the configuration to its default state. 
+
+* A sourcing folder cannot be empty and must contain at least one asset, as empty folders cannot be published from Brand Portal to AEM.
+
+## Previous releases
+
+### October 2024 release {#oct-2024}
+
+**Bug fixes and enhancements**
 
 This release includes the following bug fixes:
 
@@ -38,8 +49,6 @@ This release includes the following bug fixes:
 * Unable to download video with special characters in its name.
 * Publishing and unpublishing the assets from [!DNL Adobe Experience Manager Assets] to Brand Portal is not working appropriately.
 * Unable to play videos downloaded from the Brand Portal.
-
-## Previous releases
 
 ### February 2024 release {#feb-2024}
 

@@ -27,11 +27,11 @@ Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, con
 
 #### Enhancements {#enhancements}
 
-This release includes the following bug fixes:
+This release includes the following enhancements:
 
-* You can use a **[!UICONTROL Reset]** button to clear any changes, reset the password, and restore the configuration to its default state. 
+* In Administrative Tools panel > Dynamic Media Configuration, you can now use the **[!UICONTROL Reset]** button to clear any changes, reset the password, and restore the configuration to its default state. 
 
-* A sourcing folder cannot be empty and must contain at least one asset, as empty folders cannot be published from Brand Portal to AEM.
+* Brand Portal validates sourcing folder to ensure it contains at least one asset before publishing to AEM, helping prevent incomplete publishes.
 
 ## Previous releases
 

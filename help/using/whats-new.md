@@ -409,7 +409,7 @@ AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
 | **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** |[Create configuration](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) |- |
-| **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) |[Upgrade configuration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) | 
+| **AEM 6.5 (6.5.4.0 and above)** | [Create configuration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Upgrade configuration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
 
 >[!NOTE]
 >

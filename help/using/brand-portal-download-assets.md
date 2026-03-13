@@ -179,7 +179,8 @@ Following are the steps to download assets or folders containing assets from the
 
    If you do not want to use IBM&reg; Aspera Connect, click **[!UICONTROL Deny]**. If **[!UICONTROL Fast Download]** is denied or fails, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. 
 
-<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+<!-- 
+   removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
@@ -211,7 +212,8 @@ If the [administrator has not authorized you to access the original renditions](
 
 ![no-access-message](assets/no-access-message.png)
 
-<!-- This issue has been resolved, check with engineering.
+<!-- 
+This issue has been resolved, check with engineering.
 >[!NOTE]
 >
 >Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
@@ -244,7 +246,8 @@ Following are the steps to download asset renditions from the asset details page
 
    If you deny using **[!UICONTROL Fast Download]**, the system populates an Error message. Click the **[!UICONTROL Normal Download]** button to continue downloading the assets. 
 
-<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+<!-- 
+removed the known issue from step 3 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -269,7 +272,8 @@ Following are the steps to download asset renditions from the asset details page
 >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-<!-- Backup of content before updating the new feature docs.
+<!-- 
+Backup of content before updating the new feature docs.
 ## Configure asset download {#configure-download}
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 

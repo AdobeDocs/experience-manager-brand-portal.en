@@ -247,7 +247,8 @@ You can view all the available renditions of the asset on the asset details page
 
 ![](assets/renditions.png)
 
-<!-- removed as it is fixed in 2022.02.0 release
+<!-- 
+removed as it is fixed in 2022.02.0 release
 >[!CAUTION]
 >
 >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:

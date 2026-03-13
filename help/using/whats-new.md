@@ -373,7 +373,8 @@ Based on the configuration, the download workflow remains constant for stand-alo
 
 In Brand Portal 6.4.6, the authorization channel between AEM Assets and Brand Portal is changed. Brand Portal is now supported on AEM Assets as a Cloud Service, AEM Assets 6.3 and above. In AEM Assets 6.3 and above, Brand Portal was initially configured in Classic UI using the Legacy OAuth Gateway. This gateway employs the JWT token exchange to obtain an IMS Access token for authorization. AEM Assets are now configured with Brand Portal through Adobe Developer Console, which procures an IMS token for authorization of your Brand Portal tenant.
 
-<!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
+<!-- 
+The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
 
 <!--
@@ -385,23 +386,25 @@ In Brand Portal 6.4.6, the authorization channel between AEM Assets and Brand Po
 | **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
 | **AEM 6.2** | | 
 
-   -->
+-->
 
 The steps to configure AEM Assets with Brand Portal are different depending on your AEM version, and whether you are configuring for the first time, or upgrading the existing configurations:
 
-<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+<!--
+| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
 | **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-
 -->
 
 
-<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+<!-- 
+AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
 * AEM 6.5.4.0 and above
 * AEM 6.4.8.0 and above
-* AEM 6.3.3.8 and above -->
+* AEM 6.3.3.8 and above 
+-->
 
 | **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|

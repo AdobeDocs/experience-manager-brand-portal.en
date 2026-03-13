@@ -14,7 +14,8 @@ Adobe Experience Manager Assets Brand Portal administrators can share links of m
 
 Sharing assets through a link is a convenient way of making them available to external parties as the receivers do not have to log in to Brand Portal to access the assets.
 
-<!-- Link sharing access is restricted to editors and administrators. 
+<!-- 
+Link sharing access is restricted to editors and administrators. 
 -->
 
 For more information, see [Managing users, groups, and user roles](../using/brand-portal-adding-users.md#manage-user-roles).

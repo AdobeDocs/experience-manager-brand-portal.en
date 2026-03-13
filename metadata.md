@@ -4,7 +4,7 @@ git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
 solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager Assets
 type: Documentation
-index: y
+index: true
 recommendations: noDisplay
 ---
 

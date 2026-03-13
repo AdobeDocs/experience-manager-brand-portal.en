@@ -71,7 +71,7 @@ The **[!UICONTROL Build Form]** tab lists items that you can use in your schema 
 | Component Name | Description |
 |----|----|
 | **[!UICONTROL Section Header]** | Add a section heading for a list of common components.|
-| **[!UICONTROL Single Line Text]** | Add a single line text property. It is stored as a string.| 
+| **[!UICONTROL Single Line Text]** | Add a single line text property. It is stored as a string.|
 | **[!UICONTROL Multi ValueText]** | Add a multi-value text property. It is stored as a string array.|
 | **[!UICONTROL Number]** | Add a number component.|
 | **[!UICONTROL Date]** | Add a date component.|

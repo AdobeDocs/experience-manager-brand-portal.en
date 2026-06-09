@@ -51,11 +51,11 @@ Configuring Adobe Experience Manager Assets with Brand Portal enables asset publ
 >
 > * Brand Portal is in maintenance mode. All new product innovations are available on [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
 > * If you still need to activate Brand Portal, contact your Adobe representative with details of your use case and other specific requirements.
-> * Brand Portal is not available with [Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) or [Assets Ultimate](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). However, existing Assets as a Cloud Service customers, who already have access to Brand Portal can continue to use it when they transition to Assets Ultimate.
+> * Brand Portal is not available with [Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) or [Assets Ultimate](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). However, existing Assets as a Cloud Service customers who already have access to Brand Portal can continue to use it when they transition to Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
-However, Experience Manager Assets (on premise and managed service) is manually configured with Brand Portal using Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of the Brand Portal tenant. 
+However, Experience Manager Assets (on premise and managed services) is manually configured with Brand Portal using Adobe Developer Console, which procures an Adobe Identity Management Services (IMS) token for authorization of the Brand Portal tenant. 
 
 For more information, see [configuring Experience Manager Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -93,7 +93,7 @@ The following table lists the tasks that users in these roles can perform:
 
 Experience Manager Assets Brand Portal allows [guest access](#request-access-to-brand-portal) to Brand Portal. A guest user does not need credentials to enter the portal and has access to the public folders and collections. As a guest user, you can browse through asset details and have a full asset view of members of public folders and collections. You can search, download, and add public assets to the [!UICONTROL Lightbox] collection.
 
-However, the guest session restricts you from creating collections and saved searches, and shares them further. Users in a guest session cannot access folder and collections settings, and cannot share assets as link. Here is a list of tasks that a guest user can perform:
+However, the guest session restricts you from creating collections and saved searches. Users in a guest session cannot access folder and collections settings and cannot share assets as link. Here is a list of tasks that a guest user can perform:
 
 * [Browse and access public assets](browse-assets-brand-portal.md)
 
@@ -160,9 +160,9 @@ However, the AEM Author instance can be [configured](../using/configure-aem-asse
 
 >[!NOTE]
 >
->To get an alias for the tenant name in an existing portal URL, organizations need to contact Customer Support with a new tenant alias creation request. First, check if the alias is available, then create the alias to process this request.
+>To obtain an alias for the tenant name in an existing portal URL, organizations need to contact Customer Support with a new tenant alias creation request. First, check if the alias is available, then create the alias to process this request.
 >
->To replace the old or delete the old alias, the same process needs to be followed.
+>To replace or delete the old alias, the same process needs to be followed.
 
 ## Request access to Brand Portal {#request-access-to-brand-portal}
 
@@ -206,7 +206,7 @@ To request access, do the following:
 
    You are redirected to the [!UICONTROL Request Access] page.
 
-1. The next page displays your name and email ID used to request access. Leave a comment for the administrator, and click **[!UICONTROL Submit]**.
+1. The next page displays your name and email ID used to request access. Leave a comment for the administrator and click **[!UICONTROL Submit]**.
 
    ![](assets/bplogin-request-access.png)
 

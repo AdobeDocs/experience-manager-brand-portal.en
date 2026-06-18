@@ -78,7 +78,7 @@ Following are the steps to share a collection with the authorized Brand Portal u
    >
    >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
 
-## Unshare a collection {#unshare-a-collection}
+## Unshare a collection
 
 To unshare a previously shared collection, do the following:
 
@@ -137,7 +137,7 @@ To unshare a previously shared collection, do the following:
    >
    >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
 
-## Unshare a collection {#unshare-a-collection}
+## Unshare a collection
 
 To unshare a previously shared collection, do the following:
 

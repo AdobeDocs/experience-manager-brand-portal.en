@@ -42,7 +42,7 @@ Adobe Experience Manager Assets Brand Portal enhances the download experience by
 >
 >If you do not want to use IBM&reg; Aspera Connect and continue with the normal download process, contact the Brand Portal administrator to turn off the **[!UICONTROL Fast Download]** setting. 
 
-## Configure asset download {#configure-download}
+## Configure asset download
 
 Brand Portal administrators can configure the asset download and user group settings for Brand Portal users. This ability lets users access and download asset renditions from the Brand Portal interface.
 
@@ -298,7 +298,7 @@ removed the known issue from step 3 as it is fixed in 2022.02.0 release.
 
 <!-- 
 Backup of content before updating the new feature docs.
-## Configure asset download {#configure-download}
+## Configure asset download
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 
 

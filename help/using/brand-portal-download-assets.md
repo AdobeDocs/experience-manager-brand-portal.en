@@ -447,6 +447,6 @@ File download experience may vary for users at different client locations, depen
 | Singapore               | 196 milliseconds                  | 0.5 MB/s                | 68 minutes                         |
 
 
- >[!NOTE]
- >
- >Cited data are observed under test conditions, which may vary for users at different locations witnessing varied latency and bandwidth.
+>[!NOTE]
+>
+>Cited data are observed under test conditions, which may vary for users at different locations witnessing varied latency and bandwidth.

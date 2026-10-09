@@ -12,7 +12,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-TQID: https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY
+TQID: 'https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -21,6 +21,8 @@ product_v2:
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
     internal-label: Brand Portal

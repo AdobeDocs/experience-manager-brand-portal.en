@@ -6,7 +6,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-TQID: https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU
+TQID: 'https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: b112da9a-40c7-4e3d-8f68-114cdbd87ae4
     internal-label: Video encoding

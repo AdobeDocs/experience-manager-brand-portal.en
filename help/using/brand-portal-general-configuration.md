@@ -7,7 +7,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-TQID: https://experienceleague.adobe.com/W08soCNQvrQy3ZttX4Oa2m-dvmTSxyeTpPmHNLedgPA
+TQID: 'https://experienceleague.adobe.com/W08soCNQvrQy3ZttX4Oa2m-dvmTSxyeTpPmHNLedgPA'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Administration
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
     internal-label: Brand Portal
